@@ -1,0 +1,404 @@
+Novice_High: {
+	inherit: ( "Novice" );
+	
+	skills: {
+		MG_SRECOVERY: 10
+		HW_MAGICCRASHER: 1
+		
+		SA_ADVANCEDBOOK: {
+			MaxLevel: 10
+			MG_SRECOVERY: 1
+			}
+		SA_FREECAST: {
+			MaxLevel: 10
+			SA_ADVANCEDBOOK: 5
+			}
+		SA_CASTCANCEL: {
+			MaxLevel: 5
+			HW_MAGICCRASHER: 1
+			MG_SRECOVERY: 10
+			}
+		MG_NAPALMBEAT: {
+			MaxLevel: 10
+			HW_MAGICCRASHER: 1
+			}
+		MG_SOULSTRIKE: {
+			MaxLevel: 10
+			MG_NAPALMBEAT: 1
+			}
+		PF_MEMORIZE: {
+			MaxLevel: 1
+			SA_FREECAST: 10
+			MG_SOULSTRIKE: 3
+			}
+		MG_ENERGYCOAT: {
+			MaxLevel: 1
+			MG_NAPALMBEAT: 5
+			}
+		MG_SAFETYWALL: {
+			MaxLevel: 10
+			MG_ENERGYCOAT: 1
+			PF_MEMORIZE: 1
+			}
+			
+		MG_FIREBOLT: 5
+		MG_FIREWALL: {
+			MaxLevel: 10
+			MG_FIREBOLT: 3
+			}
+		MG_SIGHT: {
+			MaxLevel: 1
+			MG_FIREBOLT: 1
+			}
+		
+		WZ_EARTHSPIKE: 5
+		MG_STONECURSE: {
+			MaxLevel: 10
+			WZ_EARTHSPIKE: 3
+			}
+		
+		MG_LIGHTNINGBOLT: 5
+		MG_THUNDERSTORM: {
+			MaxLevel: 10
+			MG_LIGHTNINGBOLT: 3
+			}
+			
+		MG_COLDBOLT: 5
+		MG_FROSTDIVER: {
+			MaxLevel: 10
+			MG_COLDBOLT: 3
+			}
+	}
+}
+
+
+
+
+Lord_Knight: {
+	inherit: ( "Novice_High" );
+	
+	skills: {
+		HW_GANBANTEIN: {
+			MaxLevel: 1
+			MG_SAFETYWALL: 3
+			}
+		SA_AUTOSPELL: {
+			MaxLevel: 10
+			SA_FREECAST: 1
+			}
+		PF_DOUBLECASTING: {
+			MaxLevel: 5
+			SA_AUTOSPELL: 5
+			}
+		HW_MAGICPOWER: {
+			MaxLevel: 10
+			PF_DOUBLECASTING: 1
+			}
+		WZ_ESTIMATION: {
+			MaxLevel: 1
+			HW_MAGICPOWER: 1
+			HW_GANBANTEIN: 1
+			}
+		HW_NAPALMVULCAN: {
+			MaxLevel: 5
+			MG_SOULSTRIKE: 4
+			}
+		SA_SPELLBREAKER: {
+			MaxLevel: 5
+			HW_NAPALMVULCAN: 5
+			}
+		HW_SOULDRAIN: {
+			MaxLevel: 10
+			HW_NAPALMVULCAN: 3
+			}
+		SA_MAGICROD: {
+			MaxLevel: 5
+			PF_MEMORIZE: 1
+			HW_SOULDRAIN: 5
+			}
+		PF_HPCONVERSION: {
+			MaxLevel: 5
+			SA_MAGICROD: 5
+			}
+		PF_SOULCHANGE: {
+			MaxLevel: 1
+			SA_MAGICROD: 2
+			}
+		PF_SOULBURN: {
+			MaxLevel: 5
+			PF_SOULCHANGE: 1
+			PF_HPCONVERSION: 1
+			}
+		SA_LANDPROTECTOR: {
+			MaxLevel: 5
+			SA_SPELLBREAKER: 5
+			SA_MAGICROD: 5
+			}
+			
+		SA_FLAMELAUNCHER: {
+			MaxLevel: 5
+			MG_SIGHT: 1
+			}
+		SA_VOLCANO: {
+			MaxLevel: 5
+			MG_FIREWALL: 4
+			}
+		WZ_FIREPILLAR: {
+			MaxLevel: 10
+			MG_FIREWALL: 3
+			}
+		WZ_METEOR: {
+			MaxLevel: 10
+			WZ_FIREPILLAR: 5
+			SA_VOLCANO: 2
+			}
+		NJ_KAENSIN: {
+			MaxLevel: 10
+			WZ_METEOR: 10
+			}
+			
+		WZ_QUAGMIRE: {
+			MaxLevel: 5
+			MG_STONECURSE: 3
+			}
+		SA_SEISMICWEAPON: {
+			MaxLevel: 5
+			MG_STONECURSE: 1
+			}
+		WZ_HEAVENDRIVE: {
+			MaxLevel: 5
+			WZ_EARTHSPIKE: 5
+			}
+		HW_GRAVITATION: {
+			MaxLevel: 5
+			SA_SEISMICWEAPON: 1
+			}
+		PF_FOGWALL: {
+			MaxLevel: 1
+			HW_GRAVITATION: 3
+			WZ_HEAVENDRIVE: 3
+			MG_SAFETYWALL: 1
+			}
+		
+		SA_LIGHTNINGLOADER: {
+			MaxLevel: 5
+			MG_LIGHTNINGBOLT: 5
+			}
+		SA_VIOLENTGALE: {
+			MaxLevel: 5
+			SA_LIGHTNINGLOADER: 1
+			}
+		SN_WINDWALK: {
+			MaxLevel: 10
+			SA_LIGHTNINGLOADER: 3
+			}
+		WZ_JUPITEL: {
+			MaxLevel: 10
+			MG_THUNDERSTORM: 4
+			SN_WINDWALK: 3
+			}
+		WZ_VERMILION: {
+			MaxLevel: 10
+			SN_WINDWALK: 7
+			}
+		
+		SA_FROSTWEAPON: {
+			MaxLevel: 5
+			MG_COLDBOLT: 5
+			}
+		WZ_FROSTNOVA: {
+			MaxLevel: 10
+			MG_FROSTDIVER: 5
+			}
+		SA_DELUGE: {
+			MaxLevel: 5
+			SA_FROSTWEAPON: 1
+			}
+		WZ_STORMGUST: {
+			MaxLevel: 10
+			WZ_FROSTNOVA: 5
+			SA_DELUGE: 1
+		}
+		WZ_WATERBALL: {
+			MaxLevel: 5
+			HW_GANBANTEIN: 1
+			SA_FROSTWEAPON: 5
+			SA_DELUGE: 5
+			}
+	}
+}
+
+
+
+
+Rune_Knight_Trans: {
+	inherit: ( "Lord_Knight" );
+	
+	skills: {
+		WL_RELEASE: 2
+		WL_READING_SB: 1
+		WL_COMET: 5
+		WL_FREEZE_SP: 5
+		SO_SPELLFIST: {
+			MaxLevel: 5
+			HW_MAGICPOWER: 5
+			SA_CASTCANCEL: 5
+			SA_AUTOSPELL: 10
+			}
+		SO_STRIKING: {
+			MaxLevel: 5
+			SO_SPELLFIST: 5
+			}
+		WL_RECOGNIZEDSPELL: {
+			MaxLevel: 5
+			SA_ADVANCEDBOOK: 10
+			}
+		WL_DRAINLIFE: {
+			MaxLevel: 5
+			HW_SOULDRAIN: 10
+			}
+		WL_SOULEXPANSION: {
+			MaxLevel: 5
+			PF_SOULBURN: 2
+			SA_SPELLBREAKER: 2
+			}
+		WL_WHITEIMPRISON: {
+			MaxLevel: 5
+			WL_SOULEXPANSION: 3
+			HW_GANBANTEIN: 1
+			}
+		SO_PSYCHIC_WAVE: {
+			MaxLevel: 5
+			WL_SOULEXPANSION: 5
+			}
+		WL_TELEKINESIS_INTENSE: {
+			MaxLevel: 5
+			SO_PSYCHIC_WAVE: 1
+			}
+		
+		WL_SUMMONFB: {
+			MaxLevel: 5
+			SA_FLAMELAUNCHER: 3
+			}
+		WL_CRIMSONROCK: {
+			MaxLevel: 5
+			WZ_METEOR: 5
+			WL_RELEASE: 1
+			}
+		SO_WARMER: {
+			MaxLevel: 5
+			WZ_FIREPILLAR: 1
+			}
+		SO_FIREWALK: {
+			MaxLevel: 5
+			SO_WARMER: 2
+			}
+		WL_HELLINFERNO: {
+			MaxLevel: 5
+			SO_FIREWALK: 4
+			WL_RECOGNIZEDSPELL: 1
+			}
+		
+		WL_SIENNAEXECRATE: {
+			MaxLevel: 5
+			MG_STONECURSE: 10
+			}
+		WL_MARSHOFABYSS: {
+			MaxLevel: 5
+			WL_SIENNAEXECRATE: 2
+			WZ_QUAGMIRE: 3
+			}
+		WL_SUMMONSTONE: {
+			MaxLevel: 5
+			SA_SEISMICWEAPON: 3
+			}
+		SO_EARTHGRAVE: {
+			MaxLevel: 5
+			WL_SUMMONSTONE: 2
+			PF_FOGWALL: 1
+			}
+		WL_EARTHSTRAIN: {
+			MaxLevel: 5
+			WZ_HEAVENDRIVE: 5
+			HW_MAGICPOWER: 1
+			}
+			
+		SO_ELECTRICWALK: {
+			MaxLevel: 5
+			SA_VIOLENTGALE: 4
+			}
+		SO_VACUUM_EXTREME: {
+			MaxLevel: 5
+			SA_VIOLENTGALE: 5
+			HW_MAGICPOWER: 1
+			WZ_VERMILION: 10
+			}
+		SO_VARETYR_SPEAR: {
+			MaxLevel: 5
+			WZ_JUPITEL: 5
+			}
+		WL_SUMMONBL: {
+			MaxLevel: 5
+			SA_LIGHTNINGLOADER: 3
+			}
+		WL_CHAINLIGHTNING: {
+			MaxLevel: 5
+			WZ_VERMILION: 5
+			WL_SUMMONWB: 2
+			}
+			
+		SO_ARRULLO: {
+			MaxLevel: 5
+			MG_FROSTDIVER: 10
+			}
+		WL_FROSTMISTY: {
+			MaxLevel: 5
+			SA_DELUGE: 3
+			}
+		WL_SUMMONWB: {
+			MaxLevel: 5
+			SA_FROSTWEAPON: 3
+			}
+		WL_JACKFROST: {
+			MaxLevel: 5
+			WL_SUMMONWB: 2
+			WZ_FROSTNOVA: 10
+			HW_MAGICPOWER: 1
+			}
+		SO_DIAMONDDUST: {
+			MaxLevel: 5
+			WL_SUMMONWB: 5
+			MG_SRECOVERY: 10
+			}
+		
+		SO_EL_SYMPATHY: 1
+		SO_EL_CONTROL: {
+			MaxLevel: 1
+			SO_EL_SYMPATHY: 1
+			}
+		SO_EL_CURE: {
+			MaxLevel: 1
+			SO_EL_SYMPATHY: 1
+			}
+		SO_SUMMON_AGNI: {
+			MaxLevel: 3
+			SO_EL_CONTROL: 1
+			WL_SUMMONFB: 5
+			}
+		SO_SUMMON_TERA: {
+			MaxLevel: 3
+			SO_EL_CONTROL: 1
+			WL_SUMMONSTONE: 5
+			}
+		SO_SUMMON_VENTUS: {
+			MaxLevel: 3
+			SO_EL_CONTROL: 1
+			WL_SUMMONBL: 5
+			}
+		SO_SUMMON_AQUA: {
+			MaxLevel: 3
+			SO_EL_CONTROL: 1
+			WL_SUMMONWB: 5
+			}
+	}
+}
