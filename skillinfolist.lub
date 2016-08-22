@@ -624,9 +624,8 @@ SKILL_INFO_LIST = {
 		bSeperateLv = false,
 		AttackRange = { 1 },
 		_NeedSkillList = {
-			{ SKID.SA_ADVANCEDBOOK, 5 },
-			{ SKID.SA_FREECAST, 5 },
-			{ SKID.SA_AUTOSPELL, 1 }
+			{ SKID.SA_FREECAST, 10 },
+			{ SKID.MG_SOULSTRIKE, 3 }
 		}
 	},
 	[SKID.PF_FOGWALL] = {
@@ -4913,15 +4912,9 @@ SKILL_INFO_LIST = {
 		"WZ_EARTHSPIKE",
 		SkillName = "Earth Spike",
 		MaxLv = 5,
-		SpAmount = { 12, 14, 16, 18, 20 },
+		SpAmount = { 14, 18, 22, 26, 30 },
 		bSeperateLv = true,
-		AttackRange = { 9, 9, 9, 9, 9 },
-		_NeedSkillList = {
-			{ SKID.MG_STONECURSE, 1 }
-		},
-		NeedSkillList = { [JOBID.JT_SAGE] = {
-				{ SKID.SA_SEISMICWEAPON, 1 }
-			} }
+		AttackRange = { 9, 9, 9, 9, 9 }
 	},
 	[SKID.WZ_HEAVENDRIVE] = {
 		"WZ_HEAVENDRIVE",
@@ -6421,6 +6414,9 @@ SKILL_INFO_LIST = {
 		SpAmount = { 30 },
 		bSeperateLv = false,
 		AttackRange = { 1 }
+		_NeedSkillList = {
+			{ SKID.MG_NAPALMBEAT, 5 }
+		},
 	},
 	[SKID.ALL_GUARDIAN_RECALL] = {
 		"ALL_GUARDIAN_RECALL",
@@ -6437,6 +6433,9 @@ SKILL_INFO_LIST = {
 		SpAmount = { 10 },
 		bSeperateLv = false,
 		AttackRange = { 1 }
+		_NeedSkillList = {
+			{ SKID.MG_FIREBOLT, 1 }
+		}
 	},
 	[SKID.MS_BASH] = {
 		"MS_BASH",
@@ -6493,6 +6492,9 @@ SKILL_INFO_LIST = {
 		SpAmount = { 9, 9, 9, 12, 12, 12, 15, 15, 15, 18 },
 		bSeperateLv = false,
 		AttackRange = { 9, 9, 9, 9, 9, 9, 9, 9, 9, 9 }
+		_NeedSkillList = {
+			{ SKID.HW_MAGICCRASHER, 1 }
+		},
 	},
 	[SKID.HAMI_CASTLE] = {
 		"HAMI_CASTLE",
@@ -6550,8 +6552,8 @@ SKILL_INFO_LIST = {
 		bSeperateLv = true,
 		AttackRange = { 9, 9, 9, 9, 9, 9, 9, 9, 9, 9 },
 		_NeedSkillList = {
-			{ SKID.MG_NAPALMBEAT, 7 },
-			{ SKID.MG_SOULSTRIKE, 5 }
+			{ SKID.MG_ENERGYCOAT, 10 },
+			{ SKID.PF_MEMORIZE, 1 }
 		},
 		NeedSkillList = { [JOBID.JT_PRIEST] = {
 				{ SKID.PR_SANCTUARY, 3 },
@@ -6614,7 +6616,7 @@ SKILL_INFO_LIST = {
 		bSeperateLv = true,
 		AttackRange = { 9, 9, 9, 9, 9, 9, 9, 9, 9, 9 },
 		_NeedSkillList = {
-			{ SKID.MG_NAPALMBEAT, 4 }
+			{ SKID.MG_NAPALMBEAT, 1 }
 		}
 	},
 	[SKID.RG_SNATCHER] = {
@@ -6793,9 +6795,9 @@ SKILL_INFO_LIST = {
 		"MG_COLDBOLT",
 		SkillName = "Cold Bolt",
 		MaxLv = 10,
-		SpAmount = { 12, 14, 16, 18, 20, 22, 24, 26, 28, 30 },
+		SpAmount = { 14, 18, 22, 26, 30 },
 		bSeperateLv = true,
-		AttackRange = { 9, 9, 9, 9, 9, 9, 9, 9, 9, 9 }
+		AttackRange = { 9, 9, 9, 9, 9 }
 	},
 	[SKID.RG_COMPULSION] = {
 		"RG_COMPULSION",
@@ -7356,7 +7358,7 @@ SKILL_INFO_LIST = {
 		bSeperateLv = false,
 		AttackRange = { 9, 9, 9, 9, 9, 9, 9, 9, 9, 9 },
 		_NeedSkillList = {
-			{ SKID.MG_COLDBOLT, 5 }
+			{ SKID.MG_COLDBOLT, 3 }
 		}
 	},
 	[SKID.AM_CREATECREATURE] = {
@@ -7963,6 +7965,9 @@ SKILL_INFO_LIST = {
 		SpAmount = { 25, 24, 23, 22, 21, 20, 19, 18, 17, 16 },
 		bSeperateLv = false,
 		AttackRange = { 2, 2, 2, 2, 2, 2, 2, 2, 2, 2 }
+		_NeedSkillList = {
+			{ SKID.WZ_EARTHSPIKE, 3 }
+		}
 	},
 	[SKID.CR_PROVIDENCE] = {
 		"CR_PROVIDENCE",
@@ -8388,6 +8393,9 @@ SKILL_INFO_LIST = {
 		SpAmount = { 0, 0, 0, 0, 0, 0, 0, 0, 0, 0 },
 		bSeperateLv = false,
 		AttackRange = { 1, 1, 1, 1, 1, 1, 1, 1, 1, 1 }
+		_NeedSkillList = {
+			{ SKID.MG_SRECOVERY, 1 }
+		}
 	},
 	[SKID.WM_SONG_OF_MANA] = {
 		"WM_SONG_OF_MANA",
@@ -8417,7 +8425,8 @@ SKILL_INFO_LIST = {
 		bSeperateLv = false,
 		AttackRange = { 1, 1, 1, 1, 1 },
 		_NeedSkillList = {
-			{ SKID.SA_ADVANCEDBOOK, 2 }
+			{ SKID.HW_MAGICCRASHER, 1 },
+			{ SKID.MG_SRECOVERY, 10 }
 		}
 	},
 	[SKID.WL_WHITEIMPRISON] = {
@@ -8486,7 +8495,7 @@ SKILL_INFO_LIST = {
 		bSeperateLv = false,
 		AttackRange = { 1, 1, 1, 1, 1, 1, 1, 1, 1, 1 },
 		_NeedSkillList = {
-			{ SKID.SA_CASTCANCEL, 1 }
+			{ SKID.SA_ADVANCEDBOOK, 5 }
 		}
 	},
 	[SKID.WM_GREAT_ECHO] = {
@@ -8696,8 +8705,7 @@ SKILL_INFO_LIST = {
 		bSeperateLv = false,
 		AttackRange = { 9, 9, 9, 9, 9, 9, 9, 9, 9, 9 },
 		_NeedSkillList = {
-			{ SKID.MG_SIGHT, 1 },
-			{ SKID.MG_FIREBALL, 5 }
+			{ SKID.MG_FIREBOLT, 3 }
 		}
 	},
 	[SKID.SA_LANDPROTECTOR] = {
@@ -9013,10 +9021,10 @@ SKILL_INFO_LIST = {
 	[SKID.MG_FIREBOLT] = {
 		"MG_FIREBOLT",
 		SkillName = "Fire Bolt",
-		MaxLv = 10,
-		SpAmount = { 12, 14, 16, 18, 20, 22, 24, 26, 28, 30 },
+		MaxLv = 5,
+		SpAmount = { 14, 18, 22, 26, 30 },
 		bSeperateLv = true,
-		AttackRange = { 9, 9, 9, 9, 9, 9, 9, 9, 9, 9 }
+		AttackRange = { 9, 9, 9, 9, 9 }
 	},
 	[SKID.BD_ADAPTATION] = {
 		"BD_ADAPTATION",
@@ -9364,9 +9372,9 @@ SKILL_INFO_LIST = {
 		"MG_LIGHTNINGBOLT",
 		SkillName = "Lightning Bolt",
 		MaxLv = 10,
-		SpAmount = { 12, 14, 16, 18, 20, 22, 24, 26, 28, 30 },
+		SpAmount = { 14, 18, 22, 26, 30 },
 		bSeperateLv = true,
-		AttackRange = { 9, 9, 9, 9, 9, 9, 9, 9, 9, 9 }
+		AttackRange = { 9, 9, 9, 9, 9 }
 	},
 	[SKID.BA_ASSASSINCROSS] = {
 		"BA_ASSASSINCROSS",
@@ -9706,7 +9714,7 @@ SKILL_INFO_LIST = {
 		bSeperateLv = true,
 		AttackRange = { 9, 9, 9, 9, 9, 9, 9, 9, 9, 9 },
 		_NeedSkillList = {
-			{ SKID.MG_LIGHTNINGBOLT, 4 }
+			{ SKID.MG_LIGHTNINGBOLT, 3 }
 		}
 	},
 	[SKID.WE_CALLPARTNER] = {
@@ -10357,11 +10365,8 @@ SKILL_INFO_LIST = {
 		MaxLv = 1,
 		SpAmount = { 8 },
 		bSeperateLv = false,
-		AttackRange = { 9 },
-		_NeedSkillList = {
-			{ SKID.MG_SRECOVERY, 1 }
-		}
-	},
+		AttackRange = { 9 }
+	}
 	[SKID.GC_DARKILLUSION] = {
 		"GC_DARKILLUSION",
 		SkillName = "Dark Illusion",
