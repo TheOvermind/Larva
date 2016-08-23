@@ -590,7 +590,7 @@ SKILL_INFO_LIST = {
 		bSeperateLv = true,
 		AttackRange = { 9, 9, 9, 9, 9 },
 		_NeedSkillList = {
-			{ SKID.MG_NAPALMBEAT, 5 }
+			{ SKID.MG_SOULSTRIKE, 4 }
 		}
 	},
 	[SKID.CH_SOULCOLLECT] = {
@@ -1497,7 +1497,7 @@ SKILL_INFO_LIST = {
 		bSeperateLv = false,
 		AttackRange = { 1, 1, 1, 1, 1 },
 		_NeedSkillList = {
-			{ SKID.SA_AUTOSPELL, 1 }
+			{ SKID.SA_AUTOSPELL, 5 }
 		}
 	},
 	[SKID.HW_GANBANTEIN] = {
@@ -1508,8 +1508,7 @@ SKILL_INFO_LIST = {
 		bSeperateLv = false,
 		AttackRange = { 18 },
 		_NeedSkillList = {
-			{ SKID.WZ_ESTIMATION, 1 },
-			{ SKID.WZ_ICEWALL, 1 }
+			{ SKID.MG_SAFETYWALL, 3 }
 		}
 	},
 	[SKID.HW_GRAVITATION] = {
@@ -1520,9 +1519,7 @@ SKILL_INFO_LIST = {
 		bSeperateLv = true,
 		AttackRange = { 18, 18, 18, 18, 18 },
 		_NeedSkillList = {
-			{ SKID.WZ_QUAGMIRE, 1 },
-			{ SKID.HW_MAGICCRASHER, 1 },
-			{ SKID.HW_MAGICPOWER, 10 }
+			{ SKID.SA_SEISMICWEAPON, 1 }
 		}
 	},
 	[SKID.WS_CARTTERMINATION] = {
@@ -2224,7 +2221,7 @@ SKILL_INFO_LIST = {
 		bSeperateLv = false,
 		AttackRange = { 1, 1, 1, 1, 1, 1, 1, 1, 1, 1 },
 		_NeedSkillList = {
-			{ SKID.NJ_KOUENKA, 5 }
+			{ SKID.WZ_METEOR, 10 }
 		}
 	},
 	[SKID.NJ_BAKUENRYU] = {
@@ -4770,7 +4767,7 @@ SKILL_INFO_LIST = {
 		bSeperateLv = true,
 		AttackRange = { 9, 9, 9, 9, 9, 9, 9, 9, 9, 9 },
 		_NeedSkillList = {
-			{ SKID.MG_FIREWALL, 1 }
+			{ SKID.MG_FIREWALL, 3 }
 		}
 	},
 	[SKID.MA_REMOVETRAP] = {
@@ -4833,8 +4830,8 @@ SKILL_INFO_LIST = {
 		bSeperateLv = true,
 		AttackRange = { 9, 9, 9, 9, 9, 9, 9, 9, 9, 9 },
 		_NeedSkillList = {
-			{ SKID.MG_THUNDERSTORM, 1 },
-			{ SKID.WZ_SIGHTRASHER, 2 }
+			{ SKID.WZ_FIREPILLAR, 5 },
+			{ SKID.SA_VOLCANO, 2 }
 		}
 	},
 	[SKID.WZ_JUPITEL] = {
@@ -4924,11 +4921,8 @@ SKILL_INFO_LIST = {
 		bSeperateLv = true,
 		AttackRange = { 9, 9, 9, 9, 9 },
 		_NeedSkillList = {
-			{ SKID.WZ_EARTHSPIKE, 3 }
-		},
-		NeedSkillList = { [JOBID.JT_SAGE] = {
-				{ SKID.WZ_EARTHSPIKE, 1 }
-			} }
+			{ SKID.WZ_EARTHSPIKE, 5 }
+		}
 	},
 	[SKID.WZ_QUAGMIRE] = {
 		"WZ_QUAGMIRE",
@@ -4938,7 +4932,7 @@ SKILL_INFO_LIST = {
 		bSeperateLv = false,
 		AttackRange = { 9, 9, 9, 9, 9 },
 		_NeedSkillList = {
-			{ SKID.WZ_HEAVENDRIVE, 1 }
+			{ SKID.MG_STONECURSE, 3 }
 		}
 	},
 	[SKID.WZ_ESTIMATION] = {
@@ -4947,7 +4941,11 @@ SKILL_INFO_LIST = {
 		MaxLv = 1,
 		SpAmount = { 10 },
 		bSeperateLv = false,
-		AttackRange = { 9 }
+		AttackRange = { 9 },
+		_NeedSkillList = {
+			{ SKID.HW_MAGICPOWER, 1 },
+			{ SKID.HW_GANBANTEIN, 1 }
+		}
 	},
 	[SKID.HLIF_BRAIN] = {
 		"HLIF_BRAIN",
@@ -8448,7 +8446,8 @@ SKILL_INFO_LIST = {
 		bSeperateLv = false,
 		AttackRange = { 1, 1, 1, 1, 1 },
 		_NeedSkillList = {
-			{ SKID.SA_ADVANCEDBOOK, 4 }
+			{ SKID.PF_MEMORIZE, 1 },
+			{ SKID.HW_SOULDRAIN, 5 }
 		}
 	},
 	[SKID.WL_STASIS] = {
@@ -8470,7 +8469,7 @@ SKILL_INFO_LIST = {
 		bSeperateLv = false,
 		AttackRange = { 9, 9, 9, 9, 9 },
 		_NeedSkillList = {
-			{ SKID.SA_MAGICROD, 1 }
+			{ SKID.HW_NAPALMVULCAN, 5 }
 		}
 	},
 	[SKID.WL_TETRAVORTEX] = {
@@ -8517,7 +8516,7 @@ SKILL_INFO_LIST = {
 		bSeperateLv = false,
 		AttackRange = { 1, 1, 1, 1, 1, 1, 1, 1, 1, 1 },
 		_NeedSkillList = {
-			{ SKID.SA_FREECAST, 4 }
+			{ SKID.SA_FREECAST, 1 }
 		}
 	},
 	[SKID.RA_ARROWSTORM] = {
@@ -8539,8 +8538,7 @@ SKILL_INFO_LIST = {
 		bSeperateLv = false,
 		AttackRange = { 9, 9, 9, 9, 9 },
 		_NeedSkillList = {
-			{ SKID.MG_FIREBOLT, 1 },
-			{ SKID.SA_ADVANCEDBOOK, 5 }
+			{ SKID.MG_SIGHT, 1 }
 		}
 	},
 	[SKID.RA_WUGRIDER] = {
@@ -8608,8 +8606,7 @@ SKILL_INFO_LIST = {
 		bSeperateLv = false,
 		AttackRange = { 9, 9, 9, 9, 9 },
 		_NeedSkillList = {
-			{ SKID.MG_STONECURSE, 1 },
-			{ SKID.SA_ADVANCEDBOOK, 5 }
+			{ SKID.MG_STONECURSE, 1 }
 		}
 	},
 	[SKID.NC_B_SIDESLIDE] = {
@@ -8653,7 +8650,7 @@ SKILL_INFO_LIST = {
 		bSeperateLv = false,
 		AttackRange = { 2, 2, 2, 2, 2 },
 		_NeedSkillList = {
-			{ SKID.SA_FLAMELAUNCHER, 2 }
+			{ SKID.MG_FIREWALL, 4 }
 		}
 	},
 	[SKID.NC_SILVERSNIPER] = {
@@ -8716,9 +8713,8 @@ SKILL_INFO_LIST = {
 		bSeperateLv = false,
 		AttackRange = { 2, 2, 2, 2, 2 },
 		_NeedSkillList = {
-			{ SKID.SA_DELUGE, 3 },
-			{ SKID.SA_VIOLENTGALE, 3 },
-			{ SKID.SA_VOLCANO, 3 }
+			{ SKID.SA_SPELLBREAKER, 5 },
+			{ SKID.SA_MAGICROD, 5 }
 		}
 	},
 	[SKID.WM_GLOOMYDAY] = {
@@ -10344,8 +10340,7 @@ SKILL_INFO_LIST = {
 		bSeperateLv = false,
 		AttackRange = { 1, 1, 1, 1, 1, 1, 1, 1, 1, 1 },
 		_NeedSkillList = {
-			{ SKID.MG_SRECOVERY, 5 },
-			{ SKID.MG_SOULSTRIKE, 7 }
+			{ SKID.HW_NAPALMVULCAN, 3 }
 		}
 	},
 	[SKID.GC_POISONINGWEAPON] = {
@@ -10384,7 +10379,10 @@ SKILL_INFO_LIST = {
 		MaxLv = 10,
 		SpAmount = { 14, 18, 22, 26, 30, 34, 38, 42, 46, 50 },
 		bSeperateLv = true,
-		AttackRange = { 1, 1, 1, 1, 1, 1, 1, 1, 1, 1 }
+		AttackRange = { 1, 1, 1, 1, 1, 1, 1, 1, 1, 1 },
+		_NeedSkillList = {
+			{ SKID.PF_DOUBLECASTING, 1 }
+		}
 	},
 	[SKID.RK_ABUNDANCE] = {
 		"RK_ABUNDANCE",
@@ -10536,8 +10534,7 @@ SKILL_INFO_LIST = {
 		bSeperateLv = false,
 		AttackRange = { 1, 1, 1, 1, 1 },
 		_NeedSkillList = {
-			{ SKID.MG_SRECOVERY, 1 },
-			{ SKID.SA_MAGICROD, 1 }
+			{ SKID.SA_MAGICROD, 5 }
 		}
 	},
 	[SKID.HVAN_INSTRUCT] = {
@@ -10556,8 +10553,7 @@ SKILL_INFO_LIST = {
 		bSeperateLv = true,
 		AttackRange = { 9 },
 		_NeedSkillList = {
-			{ SKID.SA_MAGICROD, 3 },
-			{ SKID.SA_SPELLBREAKER, 2 }
+			{ SKID.SA_MAGICROD, 2 }
 		}
 	},
 	[SKID.MH_STAHL_HORN] = {
@@ -10576,9 +10572,8 @@ SKILL_INFO_LIST = {
 		bSeperateLv = false,
 		AttackRange = { 9, 9, 9, 9, 9 },
 		_NeedSkillList = {
-			{ SKID.SA_CASTCANCEL, 5 },
-			{ SKID.SA_MAGICROD, 3 },
-			{ SKID.SA_DISPELL, 3 }
+			{ SKID.PF_SOULCHANGE, 1 },
+			{ SKID.PF_HPCONVERSION, 1 }
 		}
 	},
 	[SKID.NPC_MAGICMIRROR] = {
