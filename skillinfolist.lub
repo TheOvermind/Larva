@@ -354,7 +354,7 @@ SKILL_INFO_LIST = {
 		bSeperateLv = true,
 		AttackRange = { 1, 1, 1, 1, 1, 1, 1, 1, 1, 1 },
 		_NeedSkillList = {
-			{ SKID.AC_CONCENTRATION, 9 }
+			{ SKID.SA_LIGHTNINGLOADER, 3 }
 		}
 	},
 	[SKID.AL_RUWACH] = {
@@ -636,8 +636,9 @@ SKILL_INFO_LIST = {
 		bSeperateLv = false,
 		AttackRange = { 9 },
 		_NeedSkillList = {
-			{ SKID.SA_VIOLENTGALE, 2 },
-			{ SKID.SA_DELUGE, 2 }
+			{ SKID.HW_GRAVITATION, 3 },
+			{ SKID.WZ_HEAVENDRIVE, 3 },
+			{ SKID.MG_SAFETYWALL, 1 }
 		}
 	},
 	[SKID.PF_SPIDERWEB] = {
@@ -4842,8 +4843,8 @@ SKILL_INFO_LIST = {
 		bSeperateLv = true,
 		AttackRange = { 9, 9, 9, 9, 9, 9, 9, 9, 9, 9 },
 		_NeedSkillList = {
-			{ SKID.MG_NAPALMBEAT, 1 },
-			{ SKID.MG_LIGHTNINGBOLT, 1 }
+			{ SKID.MG_THUNDERSTORM, 4 },
+			{ SKID.SN_WINDWALK, 3 }
 		}
 	},
 	[SKID.WZ_VERMILION] = {
@@ -4854,8 +4855,7 @@ SKILL_INFO_LIST = {
 		bSeperateLv = true,
 		AttackRange = { 9, 9, 9, 9, 9, 9, 9, 9, 9, 9 },
 		_NeedSkillList = {
-			{ SKID.MG_THUNDERSTORM, 1 },
-			{ SKID.WZ_JUPITEL, 5 }
+			{ SKID.SN_WINDWALK, 7 }
 		}
 	},
 	[SKID.WZ_WATERBALL] = {
@@ -4866,8 +4866,9 @@ SKILL_INFO_LIST = {
 		bSeperateLv = true,
 		AttackRange = { 9, 9, 9, 9, 9 },
 		_NeedSkillList = {
-			{ SKID.MG_COLDBOLT, 1 },
-			{ SKID.MG_LIGHTNINGBOLT, 1 }
+			{ SKID.HW_GANBANTEIN, 1 },
+			{ SKID.SA_FROSTWEAPON, 5 },
+			{ SKID.SA_DELUGE, 5 }
 		}
 	},
 	[SKID.WZ_ICEWALL] = {
@@ -4890,7 +4891,7 @@ SKILL_INFO_LIST = {
 		bSeperateLv = false,
 		AttackRange = { 9, 9, 9, 9, 9, 9, 9, 9, 9, 9 },
 		_NeedSkillList = {
-			{ SKID.WZ_ICEWALL, 1 }
+			{ SKID.MG_FROSTDIVER, 5 }
 		}
 	},
 	[SKID.WZ_STORMGUST] = {
@@ -4901,8 +4902,8 @@ SKILL_INFO_LIST = {
 		bSeperateLv = true,
 		AttackRange = { 9, 9, 9, 9, 9, 9, 9, 9, 9, 9 },
 		_NeedSkillList = {
-			{ SKID.MG_FROSTDIVER, 1 },
-			{ SKID.WZ_JUPITEL, 3 }
+			{ SKID.WZ_FROSTNOVA, 5 },
+			{ SKID.SA_DELUGE, 1 }
 		}
 	},
 	[SKID.WZ_EARTHSPIKE] = {
@@ -8560,8 +8561,7 @@ SKILL_INFO_LIST = {
 		bSeperateLv = false,
 		AttackRange = { 9, 9, 9, 9, 9 },
 		_NeedSkillList = {
-			{ SKID.MG_COLDBOLT, 1 },
-			{ SKID.SA_ADVANCEDBOOK, 5 }
+			{ SKID.MG_COLDBOLT, 5 }
 		}
 	},
 	[SKID.RA_MAGENTATRAP] = {
@@ -8583,8 +8583,7 @@ SKILL_INFO_LIST = {
 		bSeperateLv = false,
 		AttackRange = { 9, 9, 9, 9, 9 },
 		_NeedSkillList = {
-			{ SKID.MG_LIGHTNINGBOLT, 1 },
-			{ SKID.SA_ADVANCEDBOOK, 5 }
+			{ SKID.MG_LIGHTNINGBOLT, 5 }
 		}
 	},
 	[SKID.NC_PILEBUNKER] = {
@@ -8672,7 +8671,7 @@ SKILL_INFO_LIST = {
 		bSeperateLv = false,
 		AttackRange = { 2, 2, 2, 2, 2 },
 		_NeedSkillList = {
-			{ SKID.SA_FROSTWEAPON, 2 }
+			{ SKID.SA_FROSTWEAPON, 1 }
 		}
 	},
 	[SKID.SC_BODYPAINT] = {
@@ -8691,7 +8690,7 @@ SKILL_INFO_LIST = {
 		bSeperateLv = false,
 		AttackRange = { 2, 2, 2, 2, 2 },
 		_NeedSkillList = {
-			{ SKID.SA_LIGHTNINGLOADER, 2 }
+			{ SKID.SA_LIGHTNINGLOADER, 1 }
 		}
 	},
 	[SKID.MG_FIREWALL] = {
