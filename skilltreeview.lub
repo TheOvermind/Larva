@@ -1,30 +1,35 @@
 NEED_SKILLLIST_FOR_JOB = {
 
 	[0] = {
-		{"NV_BASIC", 1; Pos = 0, MaxLv = 9, NeedSkillList = {}}, 
-		{"NV_FIRSTAID", 142; Pos = 7, MaxLv = 1, NeedSkillList = {}}, 
-		{"NV_TRICKDEAD", 143; Pos = 14, MaxLv = 1, NeedSkillList = {}}
+		{"NV_BASIC", 1; Pos = 6, MaxLv = 9, NeedSkillList = {}}, 
+		{"NV_FIRSTAID", 142; Pos = 13, MaxLv = 1, NeedSkillList = {}}, 
+		{"NV_TRICKDEAD", 143; Pos = 20, MaxLv = 1, NeedSkillList = {}}
 	}, 
 
 	[1] = {
-		{"SM_RECOVERY", 4; Pos = 2, MaxLv = 10, NeedSkillList = {}},
-		{"HW_MAGICCRASHER", 365; Pos = 12, MaxLv = 1, NeedSkillList = {}},
-		{"SA_FREECAST", 278; Pos = 16, MaxLv = 10, NeedSkillList = {}},
-		{"SA_CASTCANCEL", 275; Pos = 9, MaxLv = 5, NeedSkillList = {}},
-		{"MG_NAPALMBEAT", 11; Pos = 4, MaxLv = 10, NeedSkillList = {}},
-		{"MG_SOULSTRIKE", 13; Pos = 11, MaxLv = 10, NeedSkillList = {}},
-		{"PF_MEMORIZE", 403; Pos = 30, MaxLv = 1, NeedSkillList = {}},
-		{"MG_ENERGYCOAT", 157; Pos = 13, MaxLv = 1, NeedSkillList = {}},
-		{"MG_SAFETYWALL", 12; Pos = 18, MaxLv = 10, NeedSkillList = {}},
+		{"SM_RECOVERY", 4; Pos = 0, MaxLv = 10, NeedSkillList = {}},
+		{"SA_CASTCANCEL", 275; Pos = 1, MaxLv = 5, NeedSkillList = {0, 2}},
+		{"HW_MAGICCRASHER", 365; Pos = 2, MaxLv = 1, NeedSkillList = {}},
+		{"SA_ADVANCEDBOOK", 274; Pos = 7, MaxLv = 10, NeedSkillList = {0}},
+		{"MG_NAPALMBEAT", 11; Pos = 9, MaxLv = 10, NeedSkillList = {2}},
+		{"MG_ENERGYCOAT", 157; Pos = 10, MaxLv = 1, NeedSkillList = {9}},
+		{"SA_FREECAST", 278; Pos = 14, MaxLv = 10, NeedSkillList = {7}},
+		{"PF_MEMORIZE", 403; Pos = 15, MaxLv = 1, NeedSkillList = {14, 16}},
+		{"MG_SOULSTRIKE", 13; Pos = 16, MaxLv = 10, NeedSkillList = {9}},
+		{"MG_SAFETYWALL", 12; Pos = 17, MaxLv = 10, NeedSkillList = {10, 15}},
+		
 		{"MG_FIREBOLT", 19; Pos = 5, MaxLv = 5, NeedSkillList = {}},
-		{"MG_FIREWALL", 18; Pos = 19, MaxLv = 10, NeedSkillList = {}},
-		{"MG_SIGHT", 10; Pos = 6, MaxLv = 1, NeedSkillList = {}},
-		{"WZ_EARTHSPIKE", 90; Pos = 15, MaxLv = 5, NeedSkillList = {}},
-		{"MG_STONECURSE", 16; Pos = 1, MaxLv = 10, NeedSkillList = {}},
-		{"MG_LIGHTNINGBOLT", 20; Pos = 3, MaxLv = 5, NeedSkillList = {}},
-		{"MG_THUNDERSTORM", 21; Pos = 10, MaxLv = 10, NeedSkillList = {}},
-		{"MG_COLDBOLT", 14; Pos = 2, MaxLv = 5, NeedSkillList = {}},
-		{"MG_FROSTDIVER", 15; Pos = 9, MaxLv = 10, NeedSkillList = {}}
+		{"MG_FIREWALL", 18; Pos = 12, MaxLv = 10, NeedSkillList = {}},
+		{"MG_SIGHT", 10; Pos = 19, MaxLv = 1, NeedSkillList = {}},
+		
+		{"WZ_EARTHSPIKE", 90; Pos = 31, MaxLv = 5, NeedSkillList = {}},
+		{"MG_STONECURSE", 16; Pos = 38, MaxLv = 10, NeedSkillList = {}},
+		
+		{"MG_LIGHTNINGBOLT", 20; Pos = 33, MaxLv = 5, NeedSkillList = {}},
+		{"MG_THUNDERSTORM", 21; Pos = 40, MaxLv = 10, NeedSkillList = {}},
+		
+		{"MG_COLDBOLT", 14; Pos = 35, MaxLv = 5, NeedSkillList = {}},
+		{"MG_FROSTDIVER", 15; Pos = 42, MaxLv = 10, NeedSkillList = {}}
 	},
 
 	[10] = {
