@@ -32,6 +32,42 @@ NEED_SKILLLIST_FOR_JOB = {
 		{"WZ_EARTHSPIKE", 90; Pos = 27, MaxLv = 5, NeedSkillList = {}}
 	},
 
+	[7] = {
+		{"HW_GANBANTEIN", 483; Pos = 7, MaxLv = 1, NeedSkillList = {}},
+		{"SA_AUTOSPELL", 279; Pos = 23, MaxLv = 10, NeedSkillList = {}},
+		{"PF_DOUBLECASTING", 482; Pos = 29, MaxLv = 5, NeedSkillList = {}},
+		{"HW_MAGICPOWER", 366; Pos = 20, MaxLv = 10, NeedSkillList = {}},
+		{"WZ_ESTIMATION", 93; Pos = 1, MaxLv = 1, NeedSkillList = {}},
+		{"HW_NAPALMVULCAN", 400; Pos = 19, MaxLv = 5, NeedSkillList = {}},
+		{"SA_SPELLBREAKER", 277; Pos = 17, MaxLv = 5, NeedSkillList = {}},
+		{"HW_SOULDRAIN", 364; Pos = 13, MaxLv = 10, NeedSkillList = {}},
+		{"SA_MAGICROD", 276; Pos = 10, MaxLv = 5, NeedSkillList = {}},
+		{"PF_HPCONVERSION", 373; Pos = 28, MaxLv = 5, NeedSkillList = {}},
+		{"PF_SOULCHANGE", 374; Pos = 21, MaxLv = 1, NeedSkillList = {}},
+		{"PF_SOULBURN", 375; Pos = 31, MaxLv = 5, NeedSkillList = {}},
+		{"SA_LANDPROTECTOR", 288; Pos = 26, MaxLv = 5, NeedSkillList = {}},
+		{"SA_FLAMELAUNCHER", 280; Pos = 13, MaxLv = 5, NeedSkillList = {}},
+		{"SA_VOLCANO", 285; Pos = 20, MaxLv = 5, NeedSkillList = {}},
+		{"WZ_FIREPILLAR", 80; Pos = 5, MaxLv = 10, NeedSkillList = {}},
+		{"WZ_METEOR", 83; Pos = 11, MaxLv = 10, NeedSkillList = {}},
+		{"NJ_KAENSIN", 535; Pos = 18, MaxLv = 10, NeedSkillList = {}},
+		{"WZ_QUAGMIRE", 92; Pos = 17, MaxLv = 5, NeedSkillList = {}},
+		{"SA_SEISMICWEAPON", 283; Pos = 8, MaxLv = 5, NeedSkillList = {}},
+		{"WZ_HEAVENDRIVE", 91; Pos = 22, MaxLv = 5, NeedSkillList = {}},
+		{"HW_GRAVITATION", 484; Pos = 24, MaxLv = 5, NeedSkillList = {}},
+		{"PF_FOGWALL", 404; Pos = 25, MaxLv = 1, NeedSkillList = {}},
+		{"SA_LIGHTNINGLOADER", 282; Pos = 12, MaxLv = 5, NeedSkillList = {}},
+		{"SA_VIOLENTGALE", 287; Pos = 19, MaxLv = 5, NeedSkillList = {}},
+		{"SN_WINDWALK", 383; Pos = 12, MaxLv = 10, NeedSkillList = {}}
+		{"WZ_JUPITEL", 84; Pos = 2, MaxLv = 10, NeedSkillList = {}},
+		{"WZ_VERMILION", 85; Pos = 9, MaxLv = 10, NeedSkillList = {}},
+		{"SA_FROSTWEAPON", 281; Pos = 11, MaxLv = 5, NeedSkillList = {}},
+		{"WZ_FROSTNOVA", 88; Pos = 8, MaxLv = 10, NeedSkillList = {}},
+		{"SA_DELUGE", 286; Pos = 18, MaxLv = 5, NeedSkillList = {}},
+		{"WZ_STORMGUST", 89; Pos = 22, MaxLv = 10, NeedSkillList = {}},
+		{"WZ_WATERBALL", 86; Pos = 15, MaxLv = 5, NeedSkillList = {}}
+	},
+
 	[10] = {
 		{"SM_SWORD", 2; Pos = 1, MaxLv = 10, NeedSkillList = {}}, 
 		{"SM_BASH", 5; Pos = 3, MaxLv = 10, NeedSkillList = {}}, 
@@ -42,6 +78,19 @@ NEED_SKILLLIST_FOR_JOB = {
 		{"SM_MAGNUM", 7; Pos = 10, MaxLv = 10, NeedSkillList = {3}}, 
 		{"SM_ENDURE", 8; Pos = 11, MaxLv = 10, NeedSkillList = {4}}, 
 		{"SM_FATALBLOW", 145; Pos = 12, MaxLv = 1, NeedSkillList = {}},
+		
+		{"KN_TWOHANDQUICKEN", 60; Pos = 0, MaxLv = 10, NeedSkillList = {}},
+		{"KN_AUTOCOUNTER", 61; Pos = 1, MaxLv = 5, NeedSkillList = {}},
+		{"KN_RIDING", 63; Pos = 2, MaxLv = 1, NeedSkillList = {}},
+		{"KN_SPEARMASTERY", 55; Pos = 3, MaxLv = 10, NeedSkillList = {}},
+		{"KN_CHARGEATK", 1001; Pos = 6, MaxLv = 1, NeedSkillList = {}},
+		{"KN_BOWLINGBASH", 62; Pos = 8, MaxLv = 10, NeedSkillList = {0, 1}},
+		{"KN_CAVALIERMASTERY", 64; Pos = 9, MaxLv = 5, NeedSkillList = {2}},
+		{"KN_PIERCE", 56; Pos = 10, MaxLv = 10, NeedSkillList = {3}},
+		{"KN_ONEHAND", 495; Pos = 13, MaxLv = 1, NeedSkillList = {}},
+		{"KN_SPEARBOOMERANG", 59; Pos = 16, MaxLv = 5, NeedSkillList = {10}},
+		{"KN_SPEARSTAB", 58; Pos = 17, MaxLv = 10, NeedSkillList = {10}},
+		{"KN_BRANDISHSPEAR", 57; Pos = 24, MaxLv = 10, NeedSkillList = {2, 17}},
 		
 		{"BS_IRON", 94; Pos = 0, MaxLv = 5, NeedSkillList = {}}, 
 		{"BS_HILTBINDING", 105; Pos = 1, MaxLv = 1, NeedSkillList = {}}, 
@@ -919,21 +968,6 @@ NEED_SKILLLIST_FOR_JOB = {
 		{"TF_DETOXIFY", 53; Pos = 10, MaxLv = 1, NeedSkillList = {3}},
 		{"TF_BACKSLIDING", 150; Pos = 11, MaxLv = 1, NeedSkillList = {}},
 		{"TF_PICKSTONE", 151; Pos = 12, MaxLv = 1, NeedSkillList = {}}
-	},
-	
-	[7] = {
-		{"KN_TWOHANDQUICKEN", 60; Pos = 0, MaxLv = 10, NeedSkillList = {}},
-		{"KN_AUTOCOUNTER", 61; Pos = 1, MaxLv = 5, NeedSkillList = {}},
-		{"KN_RIDING", 63; Pos = 2, MaxLv = 1, NeedSkillList = {}},
-		{"KN_SPEARMASTERY", 55; Pos = 3, MaxLv = 10, NeedSkillList = {}},
-		{"KN_CHARGEATK", 1001; Pos = 6, MaxLv = 1, NeedSkillList = {}},
-		{"KN_BOWLINGBASH", 62; Pos = 8, MaxLv = 10, NeedSkillList = {0, 1}},
-		{"KN_CAVALIERMASTERY", 64; Pos = 9, MaxLv = 5, NeedSkillList = {2}},
-		{"KN_PIERCE", 56; Pos = 10, MaxLv = 10, NeedSkillList = {3}},
-		{"KN_ONEHAND", 495; Pos = 13, MaxLv = 1, NeedSkillList = {}},
-		{"KN_SPEARBOOMERANG", 59; Pos = 16, MaxLv = 5, NeedSkillList = {10}},
-		{"KN_SPEARSTAB", 58; Pos = 17, MaxLv = 10, NeedSkillList = {10}},
-		{"KN_BRANDISHSPEAR", 57; Pos = 24, MaxLv = 10, NeedSkillList = {2, 17}}
 	},
 	
 	[8] = {
