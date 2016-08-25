@@ -1,12 +1,82 @@
 NEED_SKILLLIST_FOR_JOB = {
 
 	[0] = {
-		{"NV_BASIC", 1; Pos = 0, MaxLv = 9, NeedSkillList = {}}, 
-		{"NV_FIRSTAID", 142; Pos = 7, MaxLv = 1, NeedSkillList = {}}, 
-		{"NV_TRICKDEAD", 143; Pos = 14, MaxLv = 1, NeedSkillList = {}}
+		{"NV_BASIC", 1; Pos = 35, MaxLv = 9, NeedSkillList = {}}, 
+		{"NV_FIRSTAID", 142; Pos = 36, MaxLv = 1, NeedSkillList = {}}, 
+		{"NV_TRICKDEAD", 143; Pos = 37, MaxLv = 1, NeedSkillList = {}}
 	}, 
 
 	[1] = {
+		{"SM_RECOVERY", 4; Pos = 0, MaxLv = 10, NeedSkillList = {}},
+		{"SA_CASTCANCEL", 275; Pos = 1, MaxLv = 5, NeedSkillList = {0, 2}},
+		{"HW_MAGICCRASHER", 365; Pos = 2, MaxLv = 1, NeedSkillList = {}},
+		{"SA_ADVANCEDBOOK", 274; Pos = 7, MaxLv = 10, NeedSkillList = {0}},
+		{"MG_SOULSTRIKE", 13; Pos = 8, MaxLv = 10, NeedSkillList = {9}},
+		{"MG_NAPALMBEAT", 11; Pos = 9, MaxLv = 10, NeedSkillList = {2}},
+		{"SA_FREECAST", 278; Pos = 14, MaxLv = 10, NeedSkillList = {7}},
+		{"PF_MEMORIZE", 403; Pos = 15, MaxLv = 1, NeedSkillList = {8, 14}},
+		{"MG_ENERGYCOAT", 157; Pos = 16, MaxLv = 1, NeedSkillList = {9}},
+		{"MG_SAFETYWALL", 12; Pos = 22, MaxLv = 10, NeedSkillList = {15, 16}},
+		
+		{"MG_LIGHTNINGBOLT", 20; Pos = 4, MaxLv = 5, NeedSkillList = {}},
+		{"MG_THUNDERSTORM", 21; Pos = 11, MaxLv = 10, NeedSkillList = {4}},
+		
+		{"MG_COLDBOLT", 14; Pos = 6, MaxLv = 5, NeedSkillList = {}},
+		{"MG_FROSTDIVER", 15; Pos = 13, MaxLv = 10, NeedSkillList = {6}},
+		
+		{"MG_FIREWALL", 18; Pos = 18, MaxLv = 10, NeedSkillList = {25}},
+		{"MG_SIGHT", 10; Pos = 24, MaxLv = 1, NeedSkillList = {25}},
+		{"MG_FIREBOLT", 19; Pos = 25, MaxLv = 5, NeedSkillList = {}},
+		
+		{"MG_STONECURSE", 16; Pos = 20, MaxLv = 10, NeedSkillList = {27}},
+		{"WZ_EARTHSPIKE", 90; Pos = 27, MaxLv = 5, NeedSkillList = {}}	
+	},
+	
+	[4008] = {
+		{"SA_AUTOSPELL", 279; Pos = 0, MaxLv = 10, NeedSkillList = {}},
+		{"HW_NAPALMVULCAN", 400; Pos = 1, MaxLv = 5, NeedSkillList = {}},
+		{"SA_SPELLBREAKER", 277; Pos = 2, MaxLv = 5, NeedSkillList = {1}},
+		{"PF_DOUBLECASTING", 482; Pos = 7, MaxLv = 5, NeedSkillList = {0}},
+		{"HW_SOULDRAIN", 364; Pos = 8, MaxLv = 10, NeedSkillList = {1}},
+		{"SA_LANDPROTECTOR", 288; Pos = 9, MaxLv = 5, NeedSkillList = {2, 15}},
+		{"HW_MAGICPOWER", 366; Pos = 14, MaxLv = 10, NeedSkillList = {7}},
+		{"SA_MAGICROD", 276; Pos = 15, MaxLv = 5, NeedSkillList = {8}},
+		{"PF_SOULCHANGE", 374; Pos = 16, MaxLv = 1, NeedSkillList = {15}},
+		{"WZ_ESTIMATION", 93; Pos = 21, MaxLv = 1, NeedSkillList = {14}},
+		{"PF_HPCONVERSION", 373; Pos = 22, MaxLv = 5, NeedSkillList = {15}},
+		{"PF_SOULBURN", 375; Pos = 23, MaxLv = 5, NeedSkillList = {16, 22}},
+		{"HW_GANBANTEIN", 483; Pos = 29, MaxLv = 1, NeedSkillList = {}},
+		
+		{"SA_LIGHTNINGLOADER", 282; Pos = 4, MaxLv = 5, NeedSkillList = {}},
+		{"SN_WINDWALK", 383; Pos = 5, MaxLv = 10, NeedSkillList = {4}},
+		{"WZ_JUPITEL", 84; Pos = 6, MaxLv = 10, NeedSkillList = {5}},
+		{"SA_VIOLENTGALE", 287; Pos = 11, MaxLv = 5, NeedSkillList = {4}},
+		{"WZ_VERMILION", 85; Pos = 12, MaxLv = 10, NeedSkillList = {5}},
+		
+		{"SA_FROSTWEAPON", 281; Pos = 25, MaxLv = 5, NeedSkillList = {}},
+		{"SA_DELUGE", 286; Pos = 26, MaxLv = 5, NeedSkillList = {25}},
+		{"WZ_STORMGUST", 89; Pos = 27, MaxLv = 10, NeedSkillList = {34}},
+		{"WZ_WATERBALL", 86; Pos = 33, MaxLv = 5, NeedSkillList = {25, 26}},
+		{"WZ_FROSTNOVA", 88; Pos = 34, MaxLv = 10, NeedSkillList = {}},
+		
+		{"SA_FLAMELAUNCHER", 280; Pos = 42, MaxLv = 5, NeedSkillList = {}},
+		{"NJ_KAENSIN", 535; Pos = 43, MaxLv = 10, NeedSkillList = {50}},
+		{"WZ_FIREPILLAR", 80; Pos = 49, MaxLv = 10, NeedSkillList = {}},
+		{"WZ_METEOR", 83; Pos = 50, MaxLv = 10, NeedSkillList = {49, 51}},
+		{"SA_VOLCANO", 285; Pos = 51, MaxLv = 5, NeedSkillList = {}},
+		
+		{"SA_SEISMICWEAPON", 283; Pos = 46, MaxLv = 5, NeedSkillList = {}},
+		{"WZ_HEAVENDRIVE", 91; Pos = 47, MaxLv = 5, NeedSkillList = {}},
+		{"WZ_QUAGMIRE", 92; Pos = 48, MaxLv = 5, NeedSkillList = {}},
+		{"HW_GRAVITATION", 484; Pos = 53, MaxLv = 5, NeedSkillList = {46}},
+		{"PF_FOGWALL", 404; Pos = 54, MaxLv = 1, NeedSkillList = {47, 53}}
+	},
+	
+	[4054] = {
+		
+	},
+
+	[10] = {
 		{"SM_SWORD", 2; Pos = 1, MaxLv = 10, NeedSkillList = {}}, 
 		{"SM_RECOVERY", 4; Pos = 2, MaxLv = 10, NeedSkillList = {}},
 		{"SM_BASH", 5; Pos = 3, MaxLv = 10, NeedSkillList = {}}, 
@@ -16,10 +86,29 @@ NEED_SKILLLIST_FOR_JOB = {
 		{"SM_TWOHAND", 3; Pos = 8, MaxLv = 10, NeedSkillList = {1}}, 
 		{"SM_MAGNUM", 7; Pos = 10, MaxLv = 10, NeedSkillList = {3}}, 
 		{"SM_ENDURE", 8; Pos = 11, MaxLv = 10, NeedSkillList = {4}}, 
-		{"SM_FATALBLOW", 145; Pos = 12, MaxLv = 1, NeedSkillList = {}}
-	},
-
-	[10] = {
+		{"SM_FATALBLOW", 145; Pos = 12, MaxLv = 1, NeedSkillList = {}},
+		
+		{"LK_BERSERK", 359; Pos = 4, MaxLv = 1, NeedSkillList = {}},
+		{"LK_TENSIONRELAX", 358; Pos = 5, MaxLv = 1, NeedSkillList = {}},
+		{"LK_PARRYING", 356; Pos = 7, MaxLv = 10, NeedSkillList = {0}},
+		{"LK_AURABLADE", 355; Pos = 11, MaxLv = 5, NeedSkillList = {}},
+		{"LK_CONCENTRATION", 357; Pos = 12, MaxLv = 5, NeedSkillList = {2, 3}},
+		{"LK_HEADCRUSH", 398; Pos = 19, MaxLv = 5, NeedSkillList = {2, 3}},
+		{"LK_SPIRALPIERCE", 397; Pos = 25, MaxLv = 5, NeedSkillList = {10, 2, 3, 17}},
+		{"LK_JOINTBEAT", 399; Pos = 26, MaxLv = 10, NeedSkillList = {3, 2, 9, 19}},
+		
+		{"RK_RUNEMASTERY", 2010; Pos = 1, MaxLv = 10, NeedSkillList = {}},
+		{"RK_PHANTOMTHRUST", 2020; Pos = 3, MaxLv = 5, NeedSkillList = {}},
+		{"RK_DRAGONTRAINING", 2007; Pos = 4, MaxLv = 5, NeedSkillList = {}},
+		{"RK_ENCHANTBLADE", 2001; Pos = 8, MaxLv = 5, NeedSkillList = {1}},
+		{"RK_HUNDREDSPEAR", 2004; Pos = 10, MaxLv = 10, NeedSkillList = {3}},
+		{"RK_DRAGONHOWLING", 2009; Pos = 11, MaxLv = 5, NeedSkillList = {4}},
+		{"RK_DRAGONBREATH", 2008; Pos = 12, MaxLv = 10, NeedSkillList = {4}},
+		{"RK_DEATHBOUND", 2003; Pos = 14, MaxLv = 10, NeedSkillList = {8}},
+		{"RK_SONICWAVE", 2002; Pos = 15, MaxLv = 5, NeedSkillList = {8}},
+		{"RK_WINDCUTTER", 2005; Pos = 16, MaxLv = 5, NeedSkillList = {8}},
+		{"RK_IGNITIONBREAK", 2006; Pos = 23, MaxLv = 5, NeedSkillList = {14, 15, 16}},
+		
 		{"BS_IRON", 94; Pos = 0, MaxLv = 5, NeedSkillList = {}}, 
 		{"BS_HILTBINDING", 105; Pos = 1, MaxLv = 1, NeedSkillList = {}}, 
 		{"BS_SKINTEMPER", 109; Pos = 2, MaxLv = 5, NeedSkillList = {}}, 
@@ -392,17 +481,6 @@ NEED_SKILLLIST_FOR_JOB = {
 		{"AL_PNEUMA", 25; Pos = 22, MaxLv = 1, NeedSkillList = {15}}
 	},		
 	
-	[4008] = {
-		{"LK_BERSERK", 359; Pos = 4, MaxLv = 1, NeedSkillList = {}},
-		{"LK_TENSIONRELAX", 358; Pos = 5, MaxLv = 1, NeedSkillList = {}},
-		{"LK_PARRYING", 356; Pos = 7, MaxLv = 10, NeedSkillList = {0}},
-		{"LK_AURABLADE", 355; Pos = 11, MaxLv = 5, NeedSkillList = {}},
-		{"LK_CONCENTRATION", 357; Pos = 12, MaxLv = 5, NeedSkillList = {2, 3}},
-		{"LK_HEADCRUSH", 398; Pos = 19, MaxLv = 5, NeedSkillList = {2, 3}},
-		{"LK_SPIRALPIERCE", 397; Pos = 25, MaxLv = 5, NeedSkillList = {10, 2, 3, 17}},
-		{"LK_JOINTBEAT", 399; Pos = 26, MaxLv = 10, NeedSkillList = {3, 2, 9, 19}}
-	},	
-	
 	[4009] = {
 		{"HP_ASSUMPTIO", 361; Pos = 10, MaxLv = 5, NeedSkillList = {3, 5}},
 		{"HP_BASILICA", 362; Pos = 17, MaxLv = 5, NeedSkillList = {3, 7}},
@@ -568,20 +646,6 @@ NEED_SKILLLIST_FOR_JOB = {
 		{"SL_STIN", 467; Pos = 31, MaxLv = 7, NeedSkillList = {25}},
 		{"SL_STUN", 468; Pos = 32, MaxLv = 7, NeedSkillList = {25}},
 		{"SL_SMA", 469; Pos = 33, MaxLv = 10, NeedSkillList = {31, 32}}
-	},
-	
-	[4054] = {
-		{"RK_RUNEMASTERY", 2010; Pos = 1, MaxLv = 10, NeedSkillList = {}},
-		{"RK_PHANTOMTHRUST", 2020; Pos = 3, MaxLv = 5, NeedSkillList = {}},
-		{"RK_DRAGONTRAINING", 2007; Pos = 4, MaxLv = 5, NeedSkillList = {}},
-		{"RK_ENCHANTBLADE", 2001; Pos = 8, MaxLv = 5, NeedSkillList = {1}},
-		{"RK_HUNDREDSPEAR", 2004; Pos = 10, MaxLv = 10, NeedSkillList = {3}},
-		{"RK_DRAGONHOWLING", 2009; Pos = 11, MaxLv = 5, NeedSkillList = {4}},
-		{"RK_DRAGONBREATH", 2008; Pos = 12, MaxLv = 10, NeedSkillList = {4}},
-		{"RK_DEATHBOUND", 2003; Pos = 14, MaxLv = 10, NeedSkillList = {8}},
-		{"RK_SONICWAVE", 2002; Pos = 15, MaxLv = 5, NeedSkillList = {8}},
-		{"RK_WINDCUTTER", 2005; Pos = 16, MaxLv = 5, NeedSkillList = {8}},
-		{"RK_IGNITIONBREAK", 2006; Pos = 23, MaxLv = 5, NeedSkillList = {14, 15, 16}}
 	},
 	
 	[4055] = {
