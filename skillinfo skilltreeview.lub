@@ -73,7 +73,50 @@ NEED_SKILLLIST_FOR_JOB = {
 	},
 	
 	[4054] = {
+		{"WL_RELEASE", 2230; Pos = 2, MaxLv = 2, NeedSkillList = {}},
+		{"WL_READING_SB", 2231; Pos = 9, MaxLv = 1, NeedSkillList = {}},
+		{"WL_COMET", 2213; Pos = 25, MaxLv = 5, NeedSkillList = {}},
+		{"WL_FREEZE_SP", 2232; Pos = 7, MaxLv = 5, NeedSkillList = {}},
+		{"SO_SPELLFIST", 2445; Pos = 5, MaxLv = 5, NeedSkillList = {}},
+		{"SO_STRIKING", 2451; Pos = 6, MaxLv = 5, NeedSkillList = {}},
+		{"WL_RECOGNIZEDSPELL", 2206; Pos = 30, MaxLv = 5, NeedSkillList = {}},
+		{"WL_DRAINLIFE", 2210; Pos = 8, MaxLv = 5, NeedSkillList = {}},
+		{"WL_SOULEXPANSION", 2202; Pos = 14, MaxLv = 5, NeedSkillList = {}},
+		{"WL_WHITEIMPRISON", 2201; Pos = 21, MaxLv = 5, NeedSkillList = {}},
+		{"SO_PSYCHIC_WAVE", 2449; Pos = 12, MaxLv = 5, NeedSkillList = {}},
+		{"WL_TELEKINESIS_INTENSE", 5012; Pos = 28, MaxLv = 5, NeedSkillList = {}},
 		
+		{"SO_ELECTRICWALK", 2444; Pos = 1, MaxLv = 5, NeedSkillList = {}},
+		{"SO_VACUUM_EXTREME", 2453; Pos = 9, MaxLv = 5, NeedSkillList = {}},
+		{"SO_VARETYR_SPEAR", 2454; Pos = 8, MaxLv = 5, NeedSkillList = {}},
+		{"WL_SUMMONBL", 2223; Pos = 5, MaxLv = 5, NeedSkillList = {}},
+		{"WL_CHAINLIGHTNING", 2214; Pos = 12, MaxLv = 5, NeedSkillList = {}},
+		
+		{"SO_ARRULLO", 2455; Pos = 14, MaxLv = 5, NeedSkillList = {}},
+		{"WL_FROSTMISTY", 2203; Pos = 11, MaxLv = 5, NeedSkillList = {}},
+		{"WL_SUMMONWB", 2224; Pos = 4, MaxLv = 5, NeedSkillList = {}},
+		{"WL_JACKFROST", 2204; Pos = 18, MaxLv = 5, NeedSkillList = {}},
+		{"SO_DIAMONDDUST", 2447; Pos = 3, MaxLv = 5, NeedSkillList = {}},
+		
+		{"WL_SUMMONFB", 2222; Pos = 3, MaxLv = 5, NeedSkillList = {}},
+		{"WL_CRIMSONROCK", 2211; Pos = 10, MaxLv = 5, NeedSkillList = {}},
+		{"SO_WARMER", 2452; Pos = 7, MaxLv = 5, NeedSkillList = {}},
+		{"SO_FIREWALK", 2443; Pos = 0, MaxLv = 5, NeedSkillList = {}},
+		{"WL_HELLINFERNO", 2212; Pos = 17, MaxLv = 5, NeedSkillList = {}},
+		
+		{"WL_SIENNAEXECRATE", 2207; Pos = 13, MaxLv = 5, NeedSkillList = {}},
+		{"WL_MARSHOFABYSS", 2205; Pos = 0, MaxLv = 5, NeedSkillList = {}},
+		{"WL_SUMMONSTONE", 2229; Pos = 6, MaxLv = 5, NeedSkillList = {}},
+		{"SO_EARTHGRAVE", 2446; Pos = 2, MaxLv = 5, NeedSkillList = {}},
+		{"WL_EARTHSTRAIN", 2216; Pos = 20, MaxLv = 5, NeedSkillList = {}},
+		
+		{"SO_EL_SYMPATHY", 2463; Pos = 3, MaxLv = 1, NeedSkillList = {}},
+		{"SO_EL_CONTROL", 2456; Pos = 3, MaxLv = 1, NeedSkillList = {}},
+		{"SO_EL_CURE", 2464; Pos = 3, MaxLv = 1, NeedSkillList = {}},
+		{"SO_SUMMON_VENTUS", 2459; Pos = 3, MaxLv = 3, NeedSkillList = {}},
+		{"SO_SUMMON_AQUA", 2458; Pos = 3, MaxLv = 3, NeedSkillList = {}},
+		{"SO_SO_SUMMON_AGNI", 2457; Pos = 3, MaxLv = 3, NeedSkillList = {}},
+		{"SO_SUMMON_TERA", 2460; Pos = 3, MaxLv = 3, NeedSkillList = {}},
 	},
 
 	[10] = {
