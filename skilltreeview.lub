@@ -46,26 +46,30 @@ NEED_SKILLLIST_FOR_JOB = {
 		{"PF_SOULCHANGE", 374; Pos = 21, MaxLv = 1, NeedSkillList = {}},
 		{"PF_SOULBURN", 375; Pos = 31, MaxLv = 5, NeedSkillList = {}},
 		{"SA_LANDPROTECTOR", 288; Pos = 26, MaxLv = 5, NeedSkillList = {}},
-		{"SA_FLAMELAUNCHER", 280; Pos = 13, MaxLv = 5, NeedSkillList = {}},
-		{"SA_VOLCANO", 285; Pos = 20, MaxLv = 5, NeedSkillList = {}},
-		{"WZ_FIREPILLAR", 80; Pos = 5, MaxLv = 10, NeedSkillList = {}},
-		{"WZ_METEOR", 83; Pos = 11, MaxLv = 10, NeedSkillList = {}},
-		{"NJ_KAENSIN", 535; Pos = 18, MaxLv = 10, NeedSkillList = {}},
-		{"WZ_QUAGMIRE", 92; Pos = 17, MaxLv = 5, NeedSkillList = {}},
-		{"SA_SEISMICWEAPON", 283; Pos = 8, MaxLv = 5, NeedSkillList = {}},
-		{"WZ_HEAVENDRIVE", 91; Pos = 22, MaxLv = 5, NeedSkillList = {}},
-		{"HW_GRAVITATION", 484; Pos = 24, MaxLv = 5, NeedSkillList = {}},
-		{"PF_FOGWALL", 404; Pos = 25, MaxLv = 1, NeedSkillList = {}},
-		{"SA_LIGHTNINGLOADER", 282; Pos = 12, MaxLv = 5, NeedSkillList = {}},
-		{"SA_VIOLENTGALE", 287; Pos = 19, MaxLv = 5, NeedSkillList = {}},
-		{"SN_WINDWALK", 383; Pos = 12, MaxLv = 10, NeedSkillList = {}}
-		{"WZ_JUPITEL", 84; Pos = 2, MaxLv = 10, NeedSkillList = {}},
-		{"WZ_VERMILION", 85; Pos = 9, MaxLv = 10, NeedSkillList = {}},
-		{"SA_FROSTWEAPON", 281; Pos = 11, MaxLv = 5, NeedSkillList = {}},
-		{"WZ_FROSTNOVA", 88; Pos = 8, MaxLv = 10, NeedSkillList = {}},
-		{"SA_DELUGE", 286; Pos = 18, MaxLv = 5, NeedSkillList = {}},
-		{"WZ_STORMGUST", 89; Pos = 22, MaxLv = 10, NeedSkillList = {}},
-		{"WZ_WATERBALL", 86; Pos = 15, MaxLv = 5, NeedSkillList = {}}
+		
+		{"SA_LIGHTNINGLOADER", 282; Pos = 4, MaxLv = 5, NeedSkillList = {}},
+		{"SN_WINDWALK", 383; Pos = 5, MaxLv = 10, NeedSkillList = {4}},
+		{"WZ_JUPITEL", 84; Pos = 6, MaxLv = 10, NeedSkillList = {5}},
+		{"SA_VIOLENTGALE", 287; Pos = 11, MaxLv = 5, NeedSkillList = {4}},
+		{"WZ_VERMILION", 85; Pos = 12, MaxLv = 10, NeedSkillList = {5}},
+		
+		{"SA_FROSTWEAPON", 281; Pos = 25, MaxLv = 5, NeedSkillList = {}},
+		{"SA_DELUGE", 286; Pos = 26, MaxLv = 5, NeedSkillList = {25}},
+		{"WZ_STORMGUST", 89; Pos = 27, MaxLv = 10, NeedSkillList = {34}},
+		{"WZ_WATERBALL", 86; Pos = 33, MaxLv = 5, NeedSkillList = {25, 26}},
+		{"WZ_FROSTNOVA", 88; Pos = 34, MaxLv = 10, NeedSkillList = {}},
+		
+		{"SA_FLAMELAUNCHER", 280; Pos = 42, MaxLv = 5, NeedSkillList = {}},
+		{"NJ_KAENSIN", 535; Pos = 43, MaxLv = 10, NeedSkillList = {50}},
+		{"WZ_FIREPILLAR", 80; Pos = 49, MaxLv = 10, NeedSkillList = {}},
+		{"WZ_METEOR", 83; Pos = 50, MaxLv = 10, NeedSkillList = {49, 51}},
+		{"SA_VOLCANO", 285; Pos = 51, MaxLv = 5, NeedSkillList = {}},
+		
+		{"SA_SEISMICWEAPON", 283; Pos = 46, MaxLv = 5, NeedSkillList = {}},
+		{"WZ_HEAVENDRIVE", 91; Pos = 47, MaxLv = 5, NeedSkillList = {}},
+		{"WZ_QUAGMIRE", 92; Pos = 48, MaxLv = 5, NeedSkillList = {}},
+		{"HW_GRAVITATION", 484; Pos = 53, MaxLv = 5, NeedSkillList = {46}},
+		{"PF_FOGWALL", 404; Pos = 54, MaxLv = 1, NeedSkillList = {47, 53}}
 	},
 
 	[10] = {
