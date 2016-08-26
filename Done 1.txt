@@ -344,7 +344,7 @@ Rune_Knight_Trans: {
 		WL_CHAINLIGHTNING: {
 			MaxLevel: 5
 			WZ_VERMILION: 5
-			WL_SUMMONWB: 2
+			WL_SUMMONBL: 2
 			}
 			
 		SO_ARRULLO: {
