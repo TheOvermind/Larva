@@ -10008,7 +10008,7 @@ SKILL_INFO_LIST = {
 		AttackRange = { 11, 11, 11, 11, 11 },
 		_NeedSkillList = {
 			{ SKID.WZ_VERMILION, 5 },
-			{ SKID.WL_SUMMONWB, 2 }
+			{ SKID.WL_SUMMONBL, 2 }
 		}
 	},
 	[SKID.WL_COMET] = {
