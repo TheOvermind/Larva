@@ -1,13 +1,19 @@
-00>01<02 XX 04 XX 06
-vv    vv    vv    vv
-07 08<09 XX 11 XX 13
-vv vv vv            
-14>15 16 XX 18 XX 20
-   vv v<    ^^    ^^
-XX 22 XX 24<25 XX 27
+00>01<02 03 04 05 06
+vv    vv vv vv vv vv
+07 08<09 10 11 12 13
+vv vv vv       vv     
+14>15 16 XX XX 19 XX
+   vv v<
+XX 22 XX XX XX XX XX
 
 XX XX XX XX XX XX XX
 
-35>36>37 XX XX XX XX
+35>36>37 XX 39 40 41
+   vv vv    vv vv vv
+42<43 44 XX 46>47 48
+vv vv       vv
+49<50 XX XX 53 XX 55
 
 XX XX XX XX XX XX XX
+
+63 64 65 66 67 68 69
