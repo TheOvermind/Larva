@@ -40,15 +40,15 @@ NEED_SKILLLIST_FOR_JOB = {
 		{"PR_SANCTUARY", 70; Pos = 85, MaxLv = 10, NeedSkillList = {}},
 		{"HP_MEDITATIO", 363; Pos = 86, MaxLv = 10, NeedSkillList = {79}},
 		
-		{"CR_DEVOTION", 255; Pos = 29, MaxLv = 5, NeedSkillList = {15, 23}},
-		{"LK_CONCENTRATION", 357; Pos = 12, MaxLv = 5, NeedSkillList = {2, 3}},
-		{"LK_AURABLADE", 355; Pos = 11, MaxLv = 5, NeedSkillList = {}},
-		{"PA_SACRIFICE", 368; Pos = 36, MaxLv = 5, NeedSkillList = {29}},
-		{"CR_REFLECTSHIELD", 252; Pos = 23, MaxLv = 10, NeedSkillList = {16}},
-		{"ST_REJECTSWORD", 390; Pos = 31, MaxLv = 5, NeedSkillList = {}}
-		{"CR_AUTOGUARD", 249; Pos = 2, MaxLv = 10, NeedSkillList = {}},
-		{"CR_SHIELDBOOMERANG", 251; Pos = 16, MaxLv = 5, NeedSkillList = {9}},
-		{"PA_SHIELDCHAIN", 480; Pos = 25, MaxLv = 5, NeedSkillList = {16}},
+		{"CR_DEVOTION", 255; Pos = 67, MaxLv = 5, NeedSkillList = {}},
+		{"CR_AUTOGUARD", 249; Pos = 68, MaxLv = 10, NeedSkillList = {67}},
+		{"LK_CONCENTRATION", 357; Pos = 69, MaxLv = 5, NeedSkillList = {}},
+		{"CR_REFLECTSHIELD", 252; Pos = 74, MaxLv = 10, NeedSkillList = {67}},
+		{"CR_SHIELDBOOMERANG", 251; Pos = 75, MaxLv = 5, NeedSkillList = {68}},
+		{"PA_SACRIFICE", 368; Pos = 76, MaxLv = 5, NeedSkillList = {69}},
+		{"ST_REJECTSWORD", 390; Pos = 81, MaxLv = 5, NeedSkillList = {}},
+		{"PA_SHIELDCHAIN", 480; Pos = 82, MaxLv = 5, NeedSkillList = {75}},
+		{"LK_AURABLADE", 355; Pos = 83, MaxLv = 5, NeedSkillList = {}}
 	},
 	
 	[4054] = {
