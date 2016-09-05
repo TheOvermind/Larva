@@ -158,7 +158,18 @@ NEED_SKILLLIST_FOR_JOB = {
 		{"SO_SUMMON_VENTUS", 2459; Pos = 66, MaxLv = 3, NeedSkillList = {11, 64}},
 		{"SO_SUMMON_AQUA", 2458; Pos = 67, MaxLv = 3, NeedSkillList = {32, 64}},
 		{"SO_SO_SUMMON_AGNI", 2457; Pos = 68, MaxLv = 3, NeedSkillList = {49, 64}},
-		{"SO_SUMMON_TERA", 2460; Pos = 69, MaxLv = 3, NeedSkillList = {53, 64}}
+		{"SO_SUMMON_TERA", 2460; Pos = 69, MaxLv = 3, NeedSkillList = {53, 64}},
+		
+		{"AB_ORATIO", 2046; Pos = 77, MaxLv = 10, NeedSkillList = {}},
+		{"AB_JUDEX", 2038; Pos = 78, MaxLv = 5, NeedSkillList = {77}},
+		{"AB_ADORAMUS", 2040; Pos = 79, MaxLv = 10, NeedSkillList = {78, 86}},
+		{"AB_DUPLELIGHT", 2054; Pos = 84, MaxLv = 10, NeedSkillList = {}},
+		{"AB_EPICLESIS", 2044; Pos = 85, MaxLv = 5, NeedSkillList = {86}},
+		{"AB_ANCILLA", 2039; Pos = 86, MaxLv = 1, NeedSkillList = {}},
+		{"AB_CHEAL", 2043; Pos = 91, MaxLv = 3, NeedSkillList = {}},
+		{"AB_HIGHNESSHEAL", 2051; Pos = 92, MaxLv = 5, NeedSkillList = {99}},
+		{"AB_OFFERTORIUM", 5011; Pos = 93, MaxLv = 5, NeedSkillList = {86}},
+		{"AB_RENOVATIO", 2050; Pos = 99, MaxLv = 1, NeedSkillList = {}}
 	},
 
 	[10] = {
