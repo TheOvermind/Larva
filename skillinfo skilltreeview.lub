@@ -169,7 +169,16 @@ NEED_SKILLLIST_FOR_JOB = {
 		{"AB_CHEAL", 2043; Pos = 91, MaxLv = 3, NeedSkillList = {}},
 		{"AB_HIGHNESSHEAL", 2051; Pos = 92, MaxLv = 5, NeedSkillList = {99}},
 		{"AB_OFFERTORIUM", 5011; Pos = 93, MaxLv = 5, NeedSkillList = {86}},
-		{"AB_RENOVATIO", 2050; Pos = 99, MaxLv = 1, NeedSkillList = {}}
+		{"AB_RENOVATIO", 2050; Pos = 99, MaxLv = 1, NeedSkillList = {}},
+		
+		{"LG_EXEEDBREAK", 2316; Pos = 81, MaxLv = 5, NeedSkillList = {}},
+		{"LG_TRAMPLE", 2309; Pos = 82, MaxLv = 3, NeedSkillList = {}},
+		{"LG_REFLECTDAMAGE", 2311; Pos = 83, MaxLv = 5, NeedSkillList = {}},
+		{"LG_SHIELDPRESS", 2310; Pos = 88, MaxLv = 5, NeedSkillList = {}},
+		{"LG_EARTHDRIVE", 2323; Pos = 89, MaxLv = 5, NeedSkillList = {88}},
+		{"GC_WEAPONBLOCKING", 2028; Pos = 90, MaxLv = 5, NeedSkillList = {}},
+		{"LG_SHIELDSPELL", 2315; Pos = 95, MaxLv = 3, NeedSkillList = {88}},
+		{"GC_COUNTERSLASH", 2029; Pos = 97, MaxLv = 5, NeedSkillList = {90}}
 	},
 
 	[10] = {
