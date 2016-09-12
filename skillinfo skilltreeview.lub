@@ -211,6 +211,10 @@ NEED_SKILLLIST_FOR_JOB = {
 		{"GC_WEAPONBLOCKING", 2028; Pos = 90, MaxLv = 5, NeedSkillList = {}},
 		{"LG_SHIELDSPELL", 2315; Pos = 95, MaxLv = 3, NeedSkillList = {88}},
 		{"GC_COUNTERSLASH", 2029; Pos = 97, MaxLv = 5, NeedSkillList = {90}}
+		
+		{"GC_DARKCROW", 5001; Pos = 2, MaxLv = 5, NeedSkillList = {}},
+		{"GC_ROLLINGCUTTER", 2036; Pos = 2, MaxLv = 5, NeedSkillList = {}},
+		{"GC_CROSSRIPPERSLASHER", 2037; Pos = 9, MaxLv = 5, NeedSkillList = {}},
 	},
 
 	[10] = {
