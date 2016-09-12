@@ -131,6 +131,18 @@ NEED_SKILLLIST_FOR_JOB = {
 		{"ST_REJECTSWORD", 390; Pos = 81, MaxLv = 5, NeedSkillList = {}},
 		{"PA_SHIELDCHAIN", 480; Pos = 82, MaxLv = 5, NeedSkillList = {75}},
 		{"LK_AURABLADE", 355; Pos = 83, MaxLv = 5, NeedSkillList = {}}
+		
+		{"KN_BOWLINGBASH", 62; Pos = 8, MaxLv = 10, NeedSkillList = {}},
+		{"LK_PARRYING", 356; Pos = 7, MaxLv = 10, NeedSkillList = {}},
+		
+		{"BS_HAMMERFALL", 110; Pos = 3, MaxLv = 5, NeedSkillList = {}}, 
+		{"BS_ADRENALINE", 111; Pos = 10, MaxLv = 5, NeedSkillList = {}},
+
+		{"CR_SPEARQUICKEN", 258; Pos = 11, MaxLv = 10, NeedSkillList = {}},
+		{"KN_BRANDISHSPEAR", 57; Pos = 24, MaxLv = 10, NeedSkillList = {}},
+		
+		{"ASC_KATAR", 376; Pos = 9, MaxLv = 5, NeedSkillList = {}},
+		{"AS_SONICACCEL", 1003; Pos = 13, MaxLv = 1, NeedSkillList = {}},
 	},
 	
 	[4054] = {
