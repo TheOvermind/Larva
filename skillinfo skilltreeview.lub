@@ -47,7 +47,27 @@ NEED_SKILLLIST_FOR_JOB = {
 		{"LK_TENSIONRELAX", 358; Pos = 47, MaxLv = 1, NeedSkillList = {40, 46}},
 		{"KN_AUTOCOUNTER", 61; Pos = 48, MaxLv = 5, NeedSkillList = {41}},
 		{"CR_TRUST", 248; Pos = 53, MaxLv = 10, NeedSkillList = {46}},
-		{"SM_AUTOBERSERK", 146; Pos = 55, MaxLv = 1, NeedSkillList = {40, 41}}
+		{"SM_AUTOBERSERK", 146; Pos = 55, MaxLv = 1, NeedSkillList = {40, 41}},
+		
+		{"SM_SWORD", 2; Pos = 1, MaxLv = 10, NeedSkillList = {}},
+		{"SM_TWOHAND", 3; Pos = 8, MaxLv = 10, NeedSkillList = {}},
+		{"SM_MAGNUM", 7; Pos = 10, MaxLv = 10, NeedSkillList = {}},
+		
+		{"AM_AXEMASTERY", 226; Pos = 2, MaxLv = 10, NeedSkillList = {}},
+		{"PR_MACEMASTERY", 65; Pos = 15, MaxLv = 10, NeedSkillList = {}},
+		{"LK_HEADCRUSH", 398; Pos = 19, MaxLv = 5, NeedSkillList = {}},
+		{"SM_BASH", 5; Pos = 3, MaxLv = 10, NeedSkillList = {}},
+		{"LK_JOINTBEAT", 399; Pos = 26, MaxLv = 10, NeedSkillList = {}},
+		
+		{"KN_SPEARMASTERY", 55; Pos = 3, MaxLv = 10, NeedSkillList = {}},
+		{"KN_SPEARBOOMERANG", 59; Pos = 16, MaxLv = 5, NeedSkillList = {}},
+		{"KN_PIERCE", 56; Pos = 10, MaxLv = 10, NeedSkillList = {}},
+		
+		{"TF_DOUBLE", 48; Pos = 4, MaxLv = 10, NeedSkillList = {}},
+		{"AS_KATAR", 134; Pos = 1, MaxLv = 10, NeedSkillList = {}},
+		{"AS_SONICBLOW", 136; Pos = 8, MaxLv = 10, NeedSkillList = {1}},
+		{"AS_RIGHT", 132; Pos = 0, MaxLv = 5, NeedSkillList = {}},
+		{"AS_LEFT", 133; Pos = 7, MaxLv = 5, NeedSkillList = {}},
 	},
 	
 	[4008] = {
