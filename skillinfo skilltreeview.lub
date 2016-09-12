@@ -142,7 +142,7 @@ NEED_SKILLLIST_FOR_JOB = {
 		{"KN_BRANDISHSPEAR", 57; Pos = 24, MaxLv = 10, NeedSkillList = {}},
 		
 		{"ASC_KATAR", 376; Pos = 9, MaxLv = 5, NeedSkillList = {}},
-		{"AS_SONICACCEL", 1003; Pos = 13, MaxLv = 1, NeedSkillList = {}},
+		{"AS_SONICACCEL", 1003; Pos = 13, MaxLv = 1, NeedSkillList = {}}
 	},
 	
 	[4054] = {
@@ -212,9 +212,23 @@ NEED_SKILLLIST_FOR_JOB = {
 		{"LG_SHIELDSPELL", 2315; Pos = 95, MaxLv = 3, NeedSkillList = {88}},
 		{"GC_COUNTERSLASH", 2029; Pos = 97, MaxLv = 5, NeedSkillList = {90}}
 		
+		{"GN_TRAINING_SWORD", 2474; Pos = 1, MaxLv = 5, NeedSkillList = {}},
+		{"RK_SONICWAVE", 2002; Pos = 15, MaxLv = 5, NeedSkillList = {}},
+		{"RK_IGNITIONBREAK", 2006; Pos = 23, MaxLv = 5, NeedSkillList = {}},
+		{"RK_WINDCUTTER", 2005; Pos = 16, MaxLv = 5, NeedSkillList = {}},
+		
+		{"NC_AXEBOOMERANG", 2278; Pos = 12, MaxLv = 5, NeedSkillList = {}},
+		{"NC_POWERSWING", 2279; Pos = 19, MaxLv = 5, NeedSkillList = {}},
+		{"NC_TRAININGAXE", 2276; Pos = 5, MaxLv = 10, NeedSkillList = {}},
+		{"NC_AXETORNADO", 2280; Pos = 11, MaxLv = 5, NeedSkillList = {}},
+		{"NC_MAGMA_ERUPTION", 5006; Pos = 11, MaxLv = 5, NeedSkillList = {}},
+		
+		{"RK_HUNDREDSPEAR", 2004; Pos = 10, MaxLv = 10, NeedSkillList = {}},
+		{"LG_CANNONSPEAR", 2307; Pos = 14, MaxLv = 5, NeedSkillList = {}},
+		
 		{"GC_DARKCROW", 5001; Pos = 2, MaxLv = 5, NeedSkillList = {}},
 		{"GC_ROLLINGCUTTER", 2036; Pos = 2, MaxLv = 5, NeedSkillList = {}},
-		{"GC_CROSSRIPPERSLASHER", 2037; Pos = 9, MaxLv = 5, NeedSkillList = {}},
+		{"GC_CROSSRIPPERSLASHER", 2037; Pos = 9, MaxLv = 5, NeedSkillList = {}}
 	},
 
 	[10] = {
