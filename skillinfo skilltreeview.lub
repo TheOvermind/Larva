@@ -116,7 +116,27 @@ NEED_SKILLLIST_FOR_JOB = {
 		{"HT_SPRINGTRAP", 131; Pos = 185, MaxLv = 5, NeedSkillList = {184}},
 		{"HT_DETECTING", 130; Pos = 186, MaxLv = 4, NeedSkillList = {183}},
 		{"SN_SIGHT", 380; Pos = 187, MaxLv = 10, NeedSkillList = {186}},
-		{"SN_FALCONASSAULT", 381; Pos = 188, MaxLv = 5, NeedSkillList = {185, 186}}
+		{"SN_FALCONASSAULT", 381; Pos = 188, MaxLv = 5, NeedSkillList = {185, 186}},
+		asd
+		{"CR_CULTIVATION", 491; Pos = 196, MaxLv = 2, NeedSkillList = {}},
+		{"BS_FINDINGORE", 106; Pos = 198, MaxLv = 1, NeedSkillList = {1, 7}}, 
+		
+		{"MC_INCCARRY", 36; Pos = 201, MaxLv = 10, NeedSkillList = {}},
+		{"TF_STEAL", 50; Pos = 5, MaxLv = 202, NeedSkillList = {}},
+		{"BS_GREED", 1013; Pos = 208, MaxLv = 1, NeedSkillList = {}}, 
+		{"MC_CARTREVOLUTION", 153; Pos = 209, MaxLv = 1, NeedSkillList = {}},
+		
+		{"BS_ORIDEOCON", 97; Pos = 15, MaxLv = 5, NeedSkillList = {}}, 
+		{"BS_WEAPONRESEARCH", 107; Pos = 9, MaxLv = 10, NeedSkillList = {}}, 
+		{"MC_IDENTIFY", 40; Pos = 45, MaxLv = 1, NeedSkillList = {}},
+		{"BS_IRON", 94; Pos = 0, MaxLv = 5, NeedSkillList = {}}, 
+		{"BS_STEEL", 95; Pos = 7, MaxLv = 5, NeedSkillList = {}}, 
+		{"BS_ENCHANTEDSTONE", 96; Pos = 8, MaxLv = 5, NeedSkillList = {}}, 
+		{"BS_WEAPONPERFECT", 112; Pos = 17, MaxLv = 5, NeedSkillList = {}}, 
+		{"BS_OVERTHRUST", 113; Pos = 18, MaxLv = 5, NeedSkillList = {}}, 
+		
+		{"AM_TWILIGHT1", 496; Pos = 222, MaxLv = 1, NeedSkillList = {}},
+		{"AM_TWILIGHT2", 497; Pos = 223, MaxLv = 1, NeedSkillList = {222}}
 	},
 	
 	[4008] = {
