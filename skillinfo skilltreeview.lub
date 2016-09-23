@@ -270,7 +270,7 @@ NEED_SKILLLIST_FOR_JOB = {
 		{"MO_BALKYOUNG", 1016; Pos = 173, MaxLv = 1, NeedSkillList = {174}},
 		{"MO_EXPLOSIONSPIRITS", 270; Pos = 174, MaxLv = 5, NeedSkillList = {160, 173}},
 		{"MO_INVESTIGATE", 266; Pos = 180, MaxLv = 5, NeedSkillList = {173}},
-		{"CH_SOULCOLLECT", 401; Pos = 181, MaxLv = 1, NeedSkillList = {174}}
+		{"CH_SOULCOLLECT", 401; Pos = 181, MaxLv = 1, NeedSkillList = {174}},
 		
 		{"TF_HIDING", 51; Pos = 175, MaxLv = 10, NeedSkillList = {}},
 		{"AS_ENCHANTPOISON", 138; Pos = 176, MaxLv = 10, NeedSkillList = {}},
@@ -291,36 +291,36 @@ NEED_SKILLLIST_FOR_JOB = {
 		{"AM_CALLHOMUN", 243; Pos = 195, MaxLv = 1, NeedSkillList = {194}},
 		{"AM_REST", 244; Pos = 201, MaxLv = 1, NeedSkillList = {194}},
 		{"AM_RESURRECTHOMUN", 247; Pos = 202, MaxLv = 5, NeedSkillList = {194}},
-		asd
-		{"BS_UNFAIRLYTRICK", 1012; Pos = 211, MaxLv = 1, NeedSkillList = {}}
 		
-		{"RG_SNATCHER", 210; Pos = 2, MaxLv = 10, NeedSkillList = {}},
-		{"MC_PUSHCART", 39; Pos = 52, MaxLv = 10, NeedSkillList = {43}},
-		{"WS_CARTBOOST", 387; Pos = 21, MaxLv = 1, NeedSkillList = {1}},
-		{"WS_CARTTERMINATION", 485; Pos = 28, MaxLv = 10, NeedSkillList = {3, 21}},
-		{"MC_CHANGECART", 154; Pos = 12, MaxLv = 1, NeedSkillList = {}},
+		{"BS_UNFAIRLYTRICK", 1012; Pos = 211, MaxLv = 5, NeedSkillList = {}},
 		
-		{"AM_TWILIGHT3", 498; Pos = 20, MaxLv = 1, NeedSkillList = {7}},
-		{"AM_PHARMACY", 228; Pos = 7, MaxLv = 10, NeedSkillList = {0}},
-		{"AC_MAKINGARROW", 147; Pos = 12, MaxLv = 1, NeedSkillList = {}},
-		{"AM_LEARNINGPOTION", 227; Pos = 0, MaxLv = 10, NeedSkillList = {}},
-		{"AM_POTIONPITCHER", 231; Pos = 8, MaxLv = 5, NeedSkillList = {7}},
-		{"CR_SLIMPITCHER", 478; Pos = 9, MaxLv = 10, NeedSkillList = {8}},
-		{"AM_ACIDTERROR", 230; Pos = 22, MaxLv = 5, NeedSkillList = {7}},
-		{"AM_DEMONSTRATION", 229; Pos = 15, MaxLv = 5, NeedSkillList = {7}},
+		{"RG_SNATCHER", 210; Pos = 214, MaxLv = 10, NeedSkillList = {}},
+		{"WS_CARTBOOST", 387; Pos = 215, MaxLv = 1, NeedSkillList = {214, 222}},
+		{"WS_CARTTERMINATION", 485; Pos = 216, MaxLv = 10, NeedSkillList = {215}},
+		{"MC_PUSHCART", 39; Pos = 222, MaxLv = 10, NeedSkillList = {}},
+		{"MC_CHANGECART", 154; Pos = 223, MaxLv = 1, NeedSkillList = {223}},
 		
-		{"WS_WEAPONREFINE", 477; Pos = 23, MaxLv = 10, NeedSkillList = {9}}
-		{"BS_MAXIMIZE", 114; Pos = 24, MaxLv = 5, NeedSkillList = {17, 18}}, 
-		{"BS_SWORD", 99; Pos = 12, MaxLv = 3, NeedSkillList = {5}}, 
-		{"BS_AXE", 101; Pos = 26, MaxLv = 3, NeedSkillList = {12}}, 
-		{"BS_DAGGER", 98; Pos = 5, MaxLv = 3, NeedSkillList = {}}, 
-		{"BS_KNUCKLE", 103; Pos = 13, MaxLv = 3, NeedSkillList = {5}}, 
-		{"BS_MACE", 102; Pos = 20, MaxLv = 3, NeedSkillList = {13}}, 
-		{"BS_SKINTEMPER", 109; Pos = 2, MaxLv = 5, NeedSkillList = {}}, 
-		{"BS_SPEAR", 104; Pos = 11, MaxLv = 3, NeedSkillList = {5}}, 
-		{"BS_TWOHANDSWORD", 100; Pos = 19, MaxLv = 3, NeedSkillList = {12}}, 
-		{"WS_MELTDOWN", 384; Pos = 22, MaxLv = 10, NeedSkillList = {9, 18, 2}},
-		{"WS_OVERTHRUSTMAX", 486; Pos = 25, MaxLv = 5, NeedSkillList = {18}},
+		{"AM_LEARNINGPOTION", 227; Pos = 225, MaxLv = 10, NeedSkillList = {232}},
+		{"AM_DEMONSTRATION", 229; Pos = 226, MaxLv = 10, NeedSkillList = {233}},
+		{"AM_TWILIGHT3", 498; Pos = 231, MaxLv = 1, NeedSkillList = {}},
+		{"AM_PHARMACY", 228; Pos = 232, MaxLv = 5, NeedSkillList = {231}},
+		{"AM_POTIONPITCHER", 231; Pos = 233, MaxLv = 5, NeedSkillList = {232}},
+		{"CR_SLIMPITCHER", 478; Pos = 234, MaxLv = 10, NeedSkillList = {233}},
+		{"AC_MAKINGARROW", 147; Pos = 239, MaxLv = 1, NeedSkillList = {232}},
+		{"AM_ACIDTERROR", 230; Pos = 240, MaxLv = 5, NeedSkillList = {233}},
+		
+		{"WS_WEAPONREFINE", 477; Pos = 236, MaxLv = 10, NeedSkillList = {}},
+		{"BS_SKINTEMPER", 109; Pos = 237, MaxLv = 9, NeedSkillList = {}}, 
+		{"BS_MAXIMIZE", 114; Pos = 243, MaxLv = 5, NeedSkillList = {236}}, 
+		{"BS_TWOHANDSWORD", 100; Pos = 244, MaxLv = 3, NeedSkillList = {}}, 
+		{"WS_MELTDOWN", 384; Pos = 250, MaxLv = 10, NeedSkillList = {237, 243, 244, 251}},
+		{"BS_SPEAR", 104; Pos = 251, MaxLv = 3, NeedSkillList = {}}, 
+		{"BS_SWORD", 99; Pos = 252, MaxLv = 3, NeedSkillList = {}}, 
+		{"BS_AXE", 101; Pos = 253, MaxLv = 3, NeedSkillList = {}}, 
+		{"BS_DAGGER", 98; Pos = 254, MaxLv = 3, NeedSkillList = {}}, 
+		{"BS_KNUCKLE", 103; Pos = 255, MaxLv = 3, NeedSkillList = {}}, 
+		{"BS_MACE", 102; Pos = 256, MaxLv = 3, NeedSkillList = {}}, 
+		{"WS_OVERTHRUSTMAX", 486; Pos = 257, MaxLv = 5, NeedSkillList = {252, 253, 254, 255, 256}}
 	},
 	
 	[4054] = {
