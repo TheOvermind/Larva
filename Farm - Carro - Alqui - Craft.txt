@@ -1,0 +1,257 @@
+--------------------------------------
+==== 1º TAB ====
+CR_CULTIVATION: 8 //Agricultura TIER 1
+BS_FINDINGORE: 5 //Mineria TIER 1
+
+//CARROMANCIA
+TF_STEAL: 10
+MC_INCCARRY: 10
+MC_CARTREVOLUTION: 1 //QUEST SKILL
+BS_GREED: 1
+
+//ALQUIMIA
+		AM_TWILIGHT1: 5 //Hacer pasiva
+		AM_TWILIGHT2: { //Hacer pasiva
+			MaxLevel: 5
+			AM_TWILIGHT1: 3
+			}
+
+//HERRERIA
+		BS_ORIDEOCON: 1 //QUEST SKILL
+		BS_WEAPONRESEARCH: 1 //QUEST SKILL
+		MC_IDENTIFY: 1
+		BS_IRON: {
+			MaxLevel: 5
+			MC_IDENTIFY: 1
+			}
+		BS_STEEL: {
+			MaxLevel: 5
+			BS_IRON: 3
+			}
+		BS_ENCHANTEDSTONE: {
+			MaxLevel: 5
+			BS_STEEL: 5
+			BS_ORIDEOCON: 1
+			}
+		BS_WEAPONPERFECT: {
+			MaxLevel: 5
+			BS_WEAPONRESEARCH: 1
+			BS_STEEL: 3
+		}
+		BS_OVERTHRUST: {
+			MaxLevel: 10
+			BS_IRON: 5
+			BS_WEAPONRESEARCH: 1
+		}
+==== 2º TAB ====
+BS_UNFAIRLYTRICK: { // Mineria TIER 2 (Cambiar su icono a BS_FINDINGORE)
+	MaxLevel: 5
+	BS_FINDINGORE: 3
+	}
+	
+//CARROMANCIA
+		RG_SNATCHER: {
+			MaxLevel: 10
+			TF_STEAL: 5
+			MC_CARTREVOLUTION: 1
+			}
+		MC_PUSHCART: {
+			MaxLevel: 10
+			MC_INCCARRY: 5
+			MC_CARTREVOLUTION: 1
+			}
+		WS_CARTBOOST: {
+			MaxLevel: 1
+			MC_PUSHCART: 7
+			RG_SNATCHER: 5
+			}
+		WS_CARTTERMINATION: {
+			MaxLevel: 10
+			WS_CARTBOOST: 1
+			}
+		MC_CHANGECART: {
+			MaxLevel: 1
+			MC_PUSHCART: 5
+			}
+// ALQUIMIA
+		AM_TWILIGHT3: 1 // QUEST SKILL
+		AM_PHARMACY: {
+			MaxLevel: 5
+			AM_TWILIGHT2: 5
+			AM_TWILIGHT3: 1
+			}
+		AC_MAKINGARROW: { //Cambiar icono a GN_CHANGEMATERIAL
+			MaxLevel: 1
+			AM_PHARMACY: 5
+			}
+		AM_LEARNINGPOTION: {
+			MaxLevel: 10
+			AM_PHARMACY: 1
+			}
+		AM_POTIONPITCHER: {
+			MaxLevel: 5
+			AM_PHARMACY: 3
+			AM_BIOETHICS: 1
+			}
+		CR_SLIMPITCHER: {
+			MaxLevel: 10
+			AM_POTIONPITCHER: 5
+			}
+		AM_ACIDTERROR: {	
+			MaxLevel: 5
+			AM_POTIONPITCHER: 1
+			}
+		AM_DEMONSTRATION: { //MAX LVL de 5 a 10
+			MaxLevel: 10
+			AM_POTIONPITCHER: 3
+			}
+			
+//HERRERIA
+
+		WS_WEAPONREFINE: {
+			MaxLevel: 10
+			BS_ENCHANTEDSTONE: 5
+			}
+		BS_MAXIMIZE: {
+			MaxLevel: 5
+			BS_WEAPONPERFECT: 3
+			WS_WEAPONREFINE: 5
+			}
+		BS_SWORD: {
+			MaxLevel: 3
+			BS_ENCHANTEDSTONE: 5
+			}
+		BS_AXE:{
+			MaxLevel: 3
+			BS_ENCHANTEDSTONE: 5
+			}
+		BS_DAGGER: {
+			MaxLevel: 3
+			BS_ENCHANTEDSTONE: 5
+			}
+		BS_KNUCKLE: {
+			MaxLevel: 3
+			BS_ENCHANTEDSTONE: 5
+			}
+		BS_MACE: {
+			MaxLevel: 3
+			BS_ENCHANTEDSTONE: 5
+			}
+		BS_SKINTEMPER: {
+			MaxLevel: 9
+			BS_ENCHANTEDSTONE: 5
+			}
+		BS_SPEAR: {
+			MaxLevel: 3
+			BS_ENCHANTEDSTONE: 5
+			}
+		BS_TWOHANDSWORD: {
+			MaxLevel: 3
+			BS_ENCHANTEDSTONE: 5
+			}
+		WS_MELTDOWN: {
+			MaxLevel: 10
+			BS_SKINTEMPER: 9
+			BS_TWOHANDSWORD: 3
+			BS_SPEAR: 3
+			BS_MAXIMIZE: 5
+			}
+		WS_OVERTHRUSTMAX: {
+			MaxLevel: 5
+			BS_OVERTHRUST: 5
+			BS_SWORD: 3
+			BS_DAGGER: 3
+			BS_AXE: 3
+			BS_MACE: 3
+			BS_KNUCKLE: 3
+			}
+
+==== 3º TAB ====
+		NC_RESEARCHFE: { //Mineria TIER 3
+			MaxLevel: 5
+			BS_FINDINGORE: 5
+			BS_UNFAIRLYTRICK: 5
+			}
+		GN_WALLOFTHORN: { // Agricultura TIER 2 (Hacer pasiva)
+			MaxLevel: 7
+			CR_CULTIVATION: 7
+			}
+
+			//CARROMANCIA
+		GN_REMODELING_CART: {
+			MaxLevel: 10
+			MC_PUSHCART: 10
+			MC_CHANGECART: 1
+			}
+		GN_CART_TORNADO: {
+			MaxLevel: 5
+			GN_REMODELING_CART: 3
+			}
+		GN_CARTBOOST: {
+			MaxLevel: 5
+			GN_REMODELING_CART: 10
+			}
+			
+			//ALQUIMIA
+		GN_S_PHARMACY: {
+			MaxLevel: 10
+			AM_PHARMACY: 5
+			}
+		GN_SLINGITEM: {
+			MaxLevel: 1
+			GN_S_PHARMACY: 1
+			}
+		GN_MAKEBOMB: {
+			MaxLevel: 2
+			GN_SLINGITEM: 1
+			AM_DEMONSTRATION: 10
+			}
+		GN_DEMONIC_FIRE: {
+			MaxLevel: 10
+			AM_DEMONSTRATION: 5
+			AM_ACIDTERROR: 5
+			}
+		GN_FIRE_EXPANSION: { //MAX LVL de 5 a 10
+			MaxLevel: 10
+			GN_MAKEBOMB: 1
+			GN_FIRE_EXPANSION: 3
+			}
+		GN_SPORE_EXPLOSION: {
+			MaxLevel: 5
+			GN_SLINGITEM: 1
+			AM_BIOETHICS: 1
+			}
+		GN_HELLS_PLANT: {
+			MaxLevel: 5
+			GN_SPORE_EXPLOSION: 1
+			}
+		GN_BLOOD_SUCKER: {
+			MaxLevel: 5
+			GN_HELLS_PLANT: 3
+			}
+		GN_THORNS_TRAP: {
+			MaxLevel: 5
+			GN_SPORE_EXPLOSION: 5
+			GN_HELLS_PLANT: 5
+			GN_BLOOD_SUCKER: 5
+			}
+		RK_RUNEMASTERY: {
+			MaxLevel: 10
+			GN_S_PHARMACY: 5
+			}
+			
+//HERRERIA
+	GN_CHANGEMATERIAL: {
+			MaxLevel: 1
+			BS_IRON: 4
+			}
+		NC_SILVERSNIPER: {
+			MaxLevel: 10
+			BS_ENCHANTEDSTONE: 5
+			BS_WEAPONRESEARCH: 1
+			}
+		NC_MAGICDECOY: {
+			MaxLevel: 10
+			NC_SILVERSNIPER: 5
+			}
+--------------------------------------
