@@ -118,8 +118,8 @@ NEED_SKILLLIST_FOR_JOB = {
 		{"SN_SIGHT", 380; Pos = 187, MaxLv = 10, NeedSkillList = {186}},
 		{"SN_FALCONASSAULT", 381; Pos = 188, MaxLv = 5, NeedSkillList = {185, 186}},
 		
-		{"CR_CULTIVATION", 491; Pos = 196, MaxLv = 2, NeedSkillList = {}},
-		{"BS_FINDINGORE", 106; Pos = 197, MaxLv = 1, NeedSkillList = {}}, 
+		{"CR_CULTIVATION", 491; Pos = 196, MaxLv = 8, NeedSkillList = {}},
+		{"BS_FINDINGORE", 106; Pos = 197, MaxLv = 5, NeedSkillList = {}}, 
 		
 		{"TF_STEAL", 50; Pos = 5, MaxLv = 199, NeedSkillList = {}},
 		{"BS_GREED", 1013; Pos = 200, MaxLv = 1, NeedSkillList = {}}, 
@@ -128,15 +128,15 @@ NEED_SKILLLIST_FOR_JOB = {
 		
 		{"MC_IDENTIFY", 40; Pos = 211, MaxLv = 1, NeedSkillList = {}},
 		{"BS_IRON", 94; Pos = 212, MaxLv = 5, NeedSkillList = {211}},
-		{"BS_OVERTHRUST", 113; Pos = 213, MaxLv = 5, NeedSkillList = {212, 221}}, 
+		{"BS_OVERTHRUST", 113; Pos = 213, MaxLv = 10, NeedSkillList = {212, 221}}, 
 		{"BS_ORIDEOCON", 97; Pos = 217, MaxLv = 5, NeedSkillList = {}}, 
 		{"BS_ENCHANTEDSTONE", 96; Pos = 218, MaxLv = 5, NeedSkillList = {217, 219}}, 
 		{"BS_STEEL", 95; Pos = 219, MaxLv = 5, NeedSkillList = {212}}, 
 		{"BS_WEAPONPERFECT", 112; Pos = 220, MaxLv = 5, NeedSkillList = {219, 221}}, 
 		{"BS_WEAPONRESEARCH", 107; Pos = 221, MaxLv = 10, NeedSkillList = {}}, 
 		
-		{"AM_TWILIGHT1", 496; Pos = 216, MaxLv = 1, NeedSkillList = {}},
-		{"AM_TWILIGHT2", 497; Pos = 223, MaxLv = 1, NeedSkillList = {216}}
+		{"AM_TWILIGHT1", 496; Pos = 216, MaxLv = 5, NeedSkillList = {}},
+		{"AM_TWILIGHT2", 497; Pos = 223, MaxLv = 5, NeedSkillList = {216}}
 	},
 	
 	[4008] = {
@@ -290,7 +290,22 @@ NEED_SKILLLIST_FOR_JOB = {
 		{"AM_BIOETHICS", 238; Pos = 194, MaxLv = 1, NeedSkillList = {}},
 		{"AM_CALLHOMUN", 243; Pos = 195, MaxLv = 1, NeedSkillList = {194}},
 		{"AM_REST", 244; Pos = 201, MaxLv = 1, NeedSkillList = {194}},
-		{"AM_RESURRECTHOMUN", 247; Pos = 202, MaxLv = 5, NeedSkillList = {194}}
+		{"AM_RESURRECTHOMUN", 247; Pos = 202, MaxLv = 5, NeedSkillList = {194}},
+		asd
+		{"BS_UNFAIRLYTRICK", 1012; Pos = 34, MaxLv = 1, NeedSkillList = {}}
+		
+		{"RG_SNATCHER", 210; Pos = 2, MaxLv = 10, NeedSkillList = {}},
+		{"MC_PUSHCART", 39; Pos = 52, MaxLv = 10, NeedSkillList = {43}},
+		{"WS_CARTBOOST", 387; Pos = 21, MaxLv = 1, NeedSkillList = {1}},
+		{"WS_CARTTERMINATION", 485; Pos = 28, MaxLv = 10, NeedSkillList = {3, 21}},
+		{"MC_CHANGECART", 154; Pos = 12, MaxLv = 1, NeedSkillList = {}},
+		
+		{"AM_TWILIGHT3", 498; Pos = 20, MaxLv = 1, NeedSkillList = {7}},
+		{"AM_PHARMACY", 228; Pos = 7, MaxLv = 10, NeedSkillList = {0}},
+		{"AC_MAKINGARROW", 147; Pos = 12, MaxLv = 1, NeedSkillList = {}},
+		{"AM_LEARNINGPOTION", 227; Pos = 0, MaxLv = 10, NeedSkillList = {}},
+		{"AM_POTIONPITCHER", 231; Pos = 8, MaxLv = 5, NeedSkillList = {7}},
+		{"CR_SLIMPITCHER", 478; Pos = 9, MaxLv = 10, NeedSkillList = {8}},
 	},
 	
 	[4054] = {
