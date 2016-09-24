@@ -456,28 +456,30 @@ NEED_SKILLLIST_FOR_JOB = {
 		{"RA_WUGBITE", 2244; Pos = 215, MaxLv = 5, NeedSkillList = {214}},
 		{"RA_WUGDASH", 2242; Pos = 216, MaxLv = 1, NeedSkillList = {213, 215}},
 		
-		{"NC_RESEARCHFE", 2277; Pos = 6, MaxLv = 5, NeedSkillList = {}},
+		{"NC_RESEARCHFE", 2277; Pos = 224, MaxLv = 5, NeedSkillList = {}},
 		
-		{"GN_WALLOFTHORN", 2482; Pos = 16, MaxLv = 5, NeedSkillList = {}},
+		{"GN_WALLOFTHORN", 2482; Pos = 226, MaxLv = 5, NeedSkillList = {}},
 		
-		{"GN_REMODELING_CART", 2475; Pos = 5, MaxLv = 5, NeedSkillList = {}},
-		{"GN_CART_TORNADO", 2476; Pos = 12, MaxLv = 5, NeedSkillList = {}},
-		{"GN_CARTBOOST", 2478; Pos = 26, MaxLv = 5, NeedSkillList = {}}
+		{"GN_CART_TORNADO", 2476; Pos = 228, MaxLv = 5, NeedSkillList = {229}},
+		{"GN_REMODELING_CART", 2475; Pos = 229, MaxLv = 5, NeedSkillList = {}},
+		{"GN_CARTBOOST", 2478; Pos = 230, MaxLv = 5, NeedSkillList = {229}}
 		
-		{"GN_S_PHARMACY", 2497; Pos = 2, MaxLv = 10, NeedSkillList = {}},
-		{"GN_SLINGITEM", 2493; Pos = 7, MaxLv = 1, NeedSkillList = {}},
-		{"GN_MAKEBOMB", 2496; Pos = 15, MaxLv = 5, NeedSkillList = {}},
-		{"GN_DEMONIC_FIRE", 2485; Pos = 18, MaxLv = 5, NeedSkillList = {}},
-		{"GN_FIRE_EXPANSION", 2486; Pos = 25, MaxLv = 5, NeedSkillList = {}},
-		{"GN_SPORE_EXPLOSION", 2481; Pos = 11, MaxLv = 25, NeedSkillList = {}},
-		{"GN_HELLS_PLANT", 2490; Pos = 17, MaxLv = 5, NeedSkillList = {}},
-		{"GN_BLOOD_SUCKER", 2480; Pos = 10, MaxLv = 5, NeedSkillList = {}},
-		{"GN_THORNS_TRAP", 2479; Pos = 9, MaxLv = 5, NeedSkillList = {}},
-		{"RK_RUNEMASTERY", 2010; Pos = 1, MaxLv = 10, NeedSkillList = {}},
+		{"GN_S_PHARMACY", 2497; Pos = 238, MaxLv = 10, NeedSkillList = {}},
+		{"GN_SLINGITEM", 2493; Pos = 239, MaxLv = 1, NeedSkillList = {238}},
+		{"GN_SPORE_EXPLOSION", 2481; Pos = 240, MaxLv = 25, NeedSkillList = {}},
 		
-		{"GN_CHANGEMATERIAL", 2494; Pos = 0, MaxLv = 1, NeedSkillList = {}},
-		{"NC_SILVERSNIPER", 2281; Pos = 13, MaxLv = 5, NeedSkillList = {6}},
-		{"NC_MAGICDECOY", 2282; Pos = 27, MaxLv = 5, NeedSkillList = {13}},
+		{"RK_RUNEMASTERY", 2010; Pos = 245, MaxLv = 10, NeedSkillList = {}},
+		{"GN_MAKEBOMB", 2496; Pos = 246, MaxLv = 5, NeedSkillList = {239}},
+		{"GN_HELLS_PLANT", 2490; Pos = 247, MaxLv = 5, NeedSkillList = {}},
+		{"GN_THORNS_TRAP", 2479; Pos = 248, MaxLv = 5, NeedSkillList = {}},
+		
+		{"GN_DEMONIC_FIRE", 2485; Pos = 252, MaxLv = 5, NeedSkillList = {}},
+		{"GN_FIRE_EXPANSION", 2486; Pos = 253, MaxLv = 5, NeedSkillList = {}},
+		{"GN_BLOOD_SUCKER", 2480; Pos = 254, MaxLv = 5, NeedSkillList = {}},
+		
+		{"GN_CHANGEMATERIAL", 2494; Pos = 244, MaxLv = 1, NeedSkillList = {}},
+		{"NC_SILVERSNIPER", 2281; Pos = 251, MaxLv = 5, NeedSkillList = {}},
+		{"NC_MAGICDECOY", 2282; Pos = 258, MaxLv = 5, NeedSkillList = {251}},
 	},
 
 	[10] = {
