@@ -214,7 +214,7 @@ BS_UNFAIRLYTRICK: { // Mineria TIER 2 (Cambiar su icono a BS_FINDINGORE)
 		GN_FIRE_EXPANSION: { //MAX LVL de 5 a 10
 			MaxLevel: 10
 			GN_MAKEBOMB: 1
-			GN_FIRE_EXPANSION: 3
+			GN_DEMONIC_FIRE: 3
 			}
 		GN_SPORE_EXPLOSION: {
 			MaxLevel: 5
