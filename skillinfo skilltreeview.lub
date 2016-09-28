@@ -464,22 +464,20 @@ NEED_SKILLLIST_FOR_JOB = {
 		{"GN_REMODELING_CART", 2475; Pos = 229, MaxLv = 5, NeedSkillList = {}},
 		{"GN_CARTBOOST", 2478; Pos = 230, MaxLv = 5, NeedSkillList = {229}}
 		
-		{"GN_S_PHARMACY", 2497; Pos = 238, MaxLv = 10, NeedSkillList = {}},
-		{"GN_SLINGITEM", 2493; Pos = 239, MaxLv = 1, NeedSkillList = {238}},
-		{"GN_SPORE_EXPLOSION", 2481; Pos = 240, MaxLv = 25, NeedSkillList = {}},
+		{"GN_S_PHARMACY", 2497; Pos = 228 MaxLv = 10, NeedSkillList = {}},
+		{"RK_RUNEMASTERY", 2010; Pos = 229 MaxLv = 10, NeedSkillList = {}},
+		{"GN_DEMONIC_FIRE", 2485; Pos = 230 MaxLv = 5, NeedSkillList = {}},
+		{"GN_SLINGITEM", 2493; Pos = 235, MaxLv = 1, NeedSkillList = {}},
+		{"GN_MAKEBOMB", 2496; Pos = 236, MaxLv = 5, NeedSkillList = {}},
+		{"GN_FIRE_EXPANSION", 2486; Pos = 237 MaxLv = 5, NeedSkillList = {}},
+		{"GN_SPORE_EXPLOSION", 2481; Pos = 242, MaxLv = 25, NeedSkillList = {}},
+		{"GN_HELLS_PLANT", 2490; Pos = 243, MaxLv = 5, NeedSkillList = {}},
+		{"GN_BLOOD_SUCKER", 2480; Pos = 244,MaxLv = 5, NeedSkillList = {}},
+		{"GN_THORNS_TRAP", 2479; Pos = 250, MaxLv = 5, NeedSkillList = {}},
 		
-		{"RK_RUNEMASTERY", 2010; Pos = 245, MaxLv = 10, NeedSkillList = {}},
-		{"GN_MAKEBOMB", 2496; Pos = 246, MaxLv = 5, NeedSkillList = {239}},
-		{"GN_HELLS_PLANT", 2490; Pos = 247, MaxLv = 5, NeedSkillList = {}},
-		{"GN_THORNS_TRAP", 2479; Pos = 248, MaxLv = 5, NeedSkillList = {}},
-		
-		{"GN_DEMONIC_FIRE", 2485; Pos = 252, MaxLv = 5, NeedSkillList = {}},
-		{"GN_FIRE_EXPANSION", 2486; Pos = 253, MaxLv = 5, NeedSkillList = {}},
-		{"GN_BLOOD_SUCKER", 2480; Pos = 254, MaxLv = 5, NeedSkillList = {}},
-		
-		{"GN_CHANGEMATERIAL", 2494; Pos = 244, MaxLv = 1, NeedSkillList = {}},
-		{"NC_SILVERSNIPER", 2281; Pos = 251, MaxLv = 5, NeedSkillList = {}},
-		{"NC_MAGICDECOY", 2282; Pos = 258, MaxLv = 5, NeedSkillList = {251}},
+		{"GN_CHANGEMATERIAL", 2494; Pos = 238, MaxLv = 1, NeedSkillList = {}},
+		{"NC_SILVERSNIPER", 2281; Pos = 239, MaxLv = 5, NeedSkillList = {}},
+		{"NC_MAGICDECOY", 2282; Pos = 240, MaxLv = 5, NeedSkillList = {}}
 	},
 
 	[10] = {
